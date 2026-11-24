@@ -5,6 +5,9 @@
   "private": true,
   "type": "module",
   "license": "MIT",
+  "engines": {
+    "node": ">=24"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Yoavfried/SatGuess.git"
@@ -12,6 +15,7 @@
   "scripts": {
     "start": "node server.mjs",
     "test": "node --test",
-    "check": "node --check dist/app.mjs"
+    "check": "node scripts/check-syntax.mjs",
+    "export:attempts": "node scripts/export-attempts.mjs"
   }
 }
