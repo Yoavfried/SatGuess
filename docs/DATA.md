@@ -4,7 +4,7 @@ The game ships a saved OpenStreetMap-derived question snapshot with supplementar
 
 ## Local game storage
 
-Run `npm start` with Node.js 24+. The API uses Node's built-in SQLite module and creates `.data/satguess.sqlite` on first use. The `.data/` directory and SQLite/WAL files are ignored by Git. The server binds to the local loopback interface; no hosting or deployment is configured.
+Run `npm start` with Node.js 24+. The API uses Node's built-in SQLite module and creates `.data/satguess.sqlite` on first use. The `.data/` directory and SQLite/WAL files are ignored by Git. The local Node server binds to the loopback interface. Hosted deployments use a separate persistent Cloudflare Durable Object with the same schema and repository guards; see [hosting](HOSTING.md).
 
 The database stores player profiles, daily challenges, resumable runs, first place exposures and normalized `round_attempts`. The browser receives an HttpOnly identity cookie and an optional nickname; there is no registration flow. The database stores a hash of the cookie secret. Keep the local database separate from source/data snapshots and public exports.
 

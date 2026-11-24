@@ -3,7 +3,7 @@ import {createImageryProtocol,pointInPlayArea} from './imagery-loader.mjs';
 import {createGameApi,createGuessKey} from './game-api.mjs';
 import {renderDailyLeaderboard,renderGuessPercentile} from './results-view.mjs';
 
-const $=id=>document.getElementById(id),api=createGameApi();
+const $=id=>document.getElementById(id),api=createGameApi({baseUrl:new URL('./api',document.baseURI).pathname});
 const fmt=n=>new Intl.NumberFormat('he-IL').format(n);
 const EMPTY={type:'FeatureCollection',features:[]},countryBounds=[[34.18,29.45],[35.96,33.4]];
 const reducedMotion=matchMedia('(prefers-reduced-motion: reduce)').matches;

@@ -1,0 +1,23 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "satguess-mappa",
+  "main": "worker/index.mjs",
+  "compatibility_date": "2026-11-24",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": true,
+  "send_metrics": false,
+  "preview_urls": false,
+  "build": {"command": "node scripts/build-worker.mjs"},
+  "assets": {
+    "directory": ".worker/public",
+    "binding": "ASSETS",
+    "not_found_handling": "none",
+    "html_handling": "auto-trailing-slash"
+  },
+  "vars": {"PUBLIC_ORIGIN": "https://yoavfried.com"},
+  "durable_objects": {
+    "bindings": [{"name": "GAME", "class_name": "SatGuessGame"}]
+  },
+  "migrations": [{"tag": "v1", "new_sqlite_classes": ["SatGuessGame"]}],
+  "rules": [{"type": "Text", "globs": ["**/*.sql"], "fallthrough": true}]
+}

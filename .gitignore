@@ -1,4 +1,6 @@
 node_modules/
+.worker/
+.wrangler/
 .data/
 *.sqlite
 *.sqlite-wal

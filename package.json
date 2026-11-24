@@ -16,6 +16,13 @@
     "start": "node server.mjs",
     "test": "node --test",
     "check": "node scripts/check-syntax.mjs",
-    "export:attempts": "node scripts/export-attempts.mjs"
+    "export:attempts": "node scripts/export-attempts.mjs",
+    "worker:build": "node scripts/build-worker.mjs",
+    "worker:dev": "wrangler dev --local",
+    "worker:check": "wrangler deploy --dry-run --outdir .worker/bundle",
+    "worker:deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "4.167.0"
   }
 }

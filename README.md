@@ -2,7 +2,7 @@
   <img src="dist/icon.svg" width="64" height="64" alt="SatGuess logo">
   <h1>אנחנו על המפה</h1>
   <p>A Hebrew geography game. A place name, a square, and your best guess.</p>
-  <p><a href="LICENSE">MIT code</a> · <a href="THIRD_PARTY_NOTICES.md">Data & credits</a> · <a href="CONTRIBUTING.md">Contribute</a></p>
+  <p><a href="https://yoavfried.com/mappa/">Play</a> · <a href="LICENSE">MIT code</a> · <a href="THIRD_PARTY_NOTICES.md">Data & credits</a> · <a href="CONTRIBUTING.md">Contribute</a></p>
 </div>
 
 ![The game interface](docs/preview.jpg)
@@ -41,7 +41,9 @@ The playable area includes Israel proper, the Golan Heights and the West Bank. G
 
 ## Development
 
-The frontend uses HTML, CSS and JavaScript modules. `server.mjs` starts the local HTTP API and SQLite-backed game service using Node built-ins. Run the app through `npm start` so the browser and API share the same origin and cookie. This setup is for local use; no hosting or deployment is configured.
+The frontend uses HTML, CSS and JavaScript modules. `server.mjs` starts the local HTTP API and SQLite-backed game service using Node built-ins. Run the app through `npm start` so the browser and API share the same origin and cookie.
+
+A Cloudflare Worker and SQLite Durable Object adapter support persistent hosting under `/mappa/`. See [the hosting guide](docs/HOSTING.md) for deployment, local Worker testing and a scoped rewrite from an existing website.
 
 ```sh
 npm test

@@ -4,14 +4,14 @@ import {resolve,extname} from 'node:path';
 import {loadCatalog} from './catalog.mjs';
 import {openRepository} from './storage.mjs';
 import {createGameService} from './game-service.mjs';
+import {PUBLIC_ASSET_FILES} from './public-assets.mjs';
 
 const COOKIE='satguess_player_v1';
 const mime={'.html':'text/html; charset=utf-8','.mjs':'text/javascript; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json; charset=utf-8','.svg':'image/svg+xml','.txt':'text/plain; charset=utf-8','.md':'text/markdown; charset=utf-8','.woff2':'font/woff2','.jpg':'image/jpeg'};
 // A URL allowlist, rather than a filename denylist: case variations and decoded
 // Windows separators must never turn an answer snapshot into a public asset.
 const PUBLIC_ASSETS=new Map([
-  ['/','index.html'],...['index.html','app.mjs','game-api.mjs','results-view.mjs','rules.mjs','imagery-loader.mjs','style.css','map-style.json','maplibre-gl.js','maplibre-gl.css','icon.svg','MAPLIBRE-LICENSE.txt','MAP-STYLE-LICENSE.md',
-    'fonts/rubik-hebrew.woff2','fonts/rubik-latin.woff2','fonts/fredoka-hebrew.woff2','fonts/fredoka-latin.woff2'].map(file=>['/'+file,file]),
+  ['/','index.html'],...PUBLIC_ASSET_FILES.map(file=>['/'+file,file]),
 ]);
 const failure=(status,code,message)=>Object.assign(Error(message),{status,code});
 function cookieToken(req){const pair=(req.headers.cookie||'').split(';').map(s=>s.trim()).find(s=>s.startsWith(COOKIE+'='));return pair?.slice(COOKIE.length+1);}
