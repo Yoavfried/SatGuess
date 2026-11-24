@@ -1,0 +1,13 @@
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+.openai/
+outputs/
+data/*-raw*.json
+data/*-raw*.jsonl
+data/*-imported.json
+data/*-report.json
+data/*-provenance.tmp

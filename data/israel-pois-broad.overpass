@@ -1,0 +1,11 @@
+// Regional acquisition bounds include the selected Israel/West Bank/Golan play area.
+// The importer applies the actual play-area polygon; this bbox is not a border.
+// One scheduled/offline query, never one large query per player or per round.
+[out:json][timeout:180][bbox:29.45,34.2,33.45,35.95];
+nwr
+  [~"^(amenity|shop|tourism|leisure|historic|office|craft|healthcare)$"~"."]
+  [~"^(name:he|name)$"~"א|ב|ג|ד|ה|ו|ז|ח|ט|י|כ|ך|ל|מ|ם|נ|ן|ס|ע|פ|ף|צ|ץ|ק|ר|ש|ת"]
+  [!military]["landuse"!="military"]
+  ["access"!~"^(private|no)$"]
+  [!construction][!proposed][!abandoned][!disused];
+out center tags;

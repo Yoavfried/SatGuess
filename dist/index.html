@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#101b20">
+  <title>אנחנו על המפה</title>
+  <meta name="description" content="משחק ניחוש מקומות בעברית. מקבלים שם ומשבצת, מוצאים את המקום על תצלום האוויר.">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/fredoka-hebrew.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/rubik-hebrew.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="maplibre-gl.css"><link rel="stylesheet" href="style.css">
+  <script src="maplibre-gl.js" defer></script><script type="module" src="app.mjs"></script>
+</head>
+<body>
+  <div class="game-shell">
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="אנחנו על המפה, דף הבית"><span class="brand-icon" aria-hidden="true">⌖</span><span>אנחנו על המפה</span></a>
+      <div class="session-progress"><span id="round-label">סיבוב 1 מתוך 5</span><div class="round-dots" id="round-dots" aria-hidden="true"></div></div>
+      <div class="header-actions">
+        <div class="total"><span>ניקוד</span><strong id="total-score">0</strong></div>
+        <button class="icon-button" id="settings-open" aria-label="הגדרות משחק" title="הגדרות משחק">⚙</button>
+        <button class="icon-button" id="about-open" aria-label="עזרה, מקורות ורישיונות" title="עזרה ומקורות">?</button>
+        <div class="provider-credits" dir="ltr"><a href="https://openmaptiles.org/" target="_blank" rel="noopener">© OpenMapTiles</a><a id="eox-credit" class="eox-credit" href="https://cloudless.eox.at/" target="_blank" rel="noopener" hidden>EOxCloudless 2016 · EOX</a></div>
+      </div>
+    </header>
+    <main>
+      <aside class="sidebar">
+        <section id="challenge" aria-live="polite"><h1 id="place-name">טוענים…</h1><p class="place-category" id="place-category" hidden></p></section>
+        <button class="hint-button" id="block-button" disabled><span aria-hidden="true">⊞</span><span>חזרה למשבצת</span><span id="block-size">כ־10 ק״מ</span></button>
+        <section class="guess-section" id="guess-section"><button class="submit-button" id="submit-button" disabled>בחרו נקודה במפה</button></section>
+        <section id="result" class="result" hidden aria-live="polite">
+          <strong class="result-score"><span id="round-score">0</span><small>/ 100</small></strong><p id="result-distance"></p>
+          <div class="result-links"><button class="text-button" id="answer-focus">למיקום המדויק</button><a id="place-source" target="_blank" rel="noopener noreferrer">מקור המקום</a></div>
+          <button class="submit-button" id="next-button">לסיבוב הבא</button>
+        </section>
+      </aside>
+      <section class="map-area" aria-label="מפת המשחק">
+        <div id="map" role="region" aria-label="מפת תצלום אוויר ללא שמות. אפשר לנחש רק בתוך המשבצת הירוקה ובשטח היבשה."></div>
+        <div class="map-toggles"><button id="roads-toggle" aria-pressed="true" title="הצגה או הסתרה של כבישים">כבישים</button><button id="grid-toggle" aria-pressed="true" title="הצגה או הסתרה של רשת המשבצות">רשת</button></div>
+        <div class="map-tools"><button id="zoom-in" aria-label="התקרבות">+</button><button id="zoom-out" aria-label="התרחקות">−</button><span></span><button id="home-map" aria-label="תצוגת כל הארץ" title="כל הארץ">⛶</button><button id="center-pin" aria-label="הנחת סיכה במרכז המפה" title="סיכה במרכז המפה">⌖</button></div>
+        <div class="north" aria-hidden="true"><span>צ</span><i></i></div>
+        <div id="map-status" class="sr-only" role="status">טוענים את המפה…</div>
+        <div id="map-error" class="map-error" hidden><strong>לא הצלחנו לטעון את המפה</strong><p>בדקו את החיבור לאינטרנט.</p><button id="reload-map">ניסיון נוסף</button></div>
+      </section>
+    </main>
+  </div>
+  <dialog id="settings-dialog" aria-labelledby="settings-title">
+    <button class="dialog-close" data-close aria-label="סגירה">×</button><h2 id="settings-title">הגדרות משחק</h2>
+    <fieldset class="collection-options"><legend>מקומות</legend>
+      <label><input type="radio" name="collection" value="landmarks" checked><span><strong>אתרים ומוסדות</strong><small>מוזיאונים, בתי ספר, קניונים ואתרים</small><small class="collection-count" id="landmarks-count"></small></span></label>
+      <label><input type="radio" name="collection" value="all"><span><strong>המאגר הרחב</strong><small>גם מסעדות, חנויות ועסקים מקומיים</small><small class="collection-count" id="all-count"></small></span></label>
+    </fieldset>
+    <fieldset class="difficulty-options"><legend>גודל המשבצת</legend><label><input type="radio" name="difficulty" value="easy"><span><strong>קל</strong><small>כ־5 ק״מ</small></span></label><label><input type="radio" name="difficulty" value="normal" checked><span><strong>רגיל</strong><small>כ־10 ק״מ</small></span></label><label><input type="radio" name="difficulty" value="hard"><span><strong>קשה</strong><small>כ־20 ק״מ</small></span></label></fieldset>
+    <p class="small-copy">כל שינוי בהגדרות יתחיל משחק חדש, השיא האישי נשמר בנפרד לכל סט הגדרות.</p><p id="best-score" class="best-score"></p><button id="start-new" class="submit-button">התחלת משחק חדש</button>
+  </dialog>
+  <dialog id="about-dialog" aria-labelledby="about-title"><button class="dialog-close" data-close aria-label="סגירה">×</button><h2 id="about-title">איך משחקים</h2><p>מקבלים שם מקום וקטגוריה. המקום נמצא במשבצת הירוקה. בחרו נקודה בתוך המשבצת ואשרו את הניחוש.</p><p>חמישה סיבובים, עד 100 נקודות בכל סיבוב. ככל שמתקרבים למקום מקבלים יותר נקודות. לאחר הניחוש, המיקום מוצג בעיגול אדום ברדיוס 10 מטרים.</p><p class="small-copy">הניקוד יחסי למשבצת. מרחק של חצי מהצלע הקצרה נותן 0 נקודות. ניחוש בתוך העיגול מקבל 100; גם דיוק של 99.5% ומעלה מעוגל ל־100.</p><details><summary>מקורות ורישיונות</summary><div class="credits"><p>תצלום האוויר הראשי: המרכז למיפוי ישראל, שנת 2015, ברזולוציה של 2 מטרים. מקור: <a href="https://data.gov.il/he/datasets/israel_mapping_center/tly" target="_blank" rel="noopener">מאגרי המידע הממשלתיים</a>; שימוש בכפוף ל־<a href="https://data.gov.il/he/terms-of-use" target="_blank" rel="noopener">רישיון DataGov</a>, כולל ציון מקור. אירוח האריחים: <a href="https://www.arcgis.com/home/item.html?id=1ef1f7b0909e468b93d7e224bd94c13b" target="_blank" rel="noopener">Systematics</a>. התצלום ישן, ולכן מבנים חדשים ושינויים מאז 2015 עשויים שלא להופיע.</p><p>רק בפערי כיסוי בתוך אזור המשחק משולבים תצלומי <a href="https://cloudless.eox.at" target="_blank" rel="noopener">EOxCloudless by EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2016), ברזולוציה של כ־10 מטרים וברישיון <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.</p><p>כבישים ומקומות: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a>, ברישיון ODbL. אריחים: <a href="https://openfreemap.org" target="_blank" rel="noopener">OpenFreeMap</a>. גבולות אזור המשחק: © <a href="https://www.geoboundaries.org/" target="_blank" rel="noopener">geoBoundaries</a> ו־OpenStreetMap, ברישיונות ODbL / CC BY 4.0. מנוע המפה: <a href="https://maplibre.org" target="_blank" rel="noopener">MapLibre</a>.</p><p>מאגר המקומות משלב נתוני OpenStreetMap ו־<a href="https://www.wikidata.org/wiki/Wikidata:Licensing" target="_blank" rel="noopener">Wikidata</a>. בהגדרות אפשר לבחור בין אתרים ומוסדות לבין המאגר הרחב, הכולל גם עסקים. המאגר המעובד זמין ברישיון <a href="https://opendatacommons.org/licenses/odbl/1-0/" target="_blank" rel="noopener">ODbL 1.0</a>; רשומות המקור מ־Wikidata זמינות תחת CC0. ייתכנו שמות ישנים ומיקומים לא מדויקים, וחלק מהנקודות מייצגות מרכז של מבנה או שטח. קישור למקור מוצג לאחר כל ניחוש. אפשר להוריד את <a href="places.json" download>מאגר המקומות והמקורות</a>.</p><p>שכבת הדרכים: © <a href="https://openmaptiles.org/" target="_blank" rel="noopener">OpenMapTiles</a>. קוד המשחק זמין ברישיון <a href="https://github.com/Yoavfried/SatGuess" target="_blank" rel="noopener">MIT ב־GitHub</a>. הגופנים Rubik ו־Fredoka זמינים ברישיון SIL Open Font License 1.1.</p></div></details><button class="submit-button" data-close>חזרה למשחק</button></dialog>
+  <dialog id="summary-dialog" aria-labelledby="summary-title"><h2 id="summary-title">סוף המשחק</h2><div class="summary-score"><strong id="summary-score"></strong><span>מתוך 500 נקודות</span></div><p id="summary-best" class="small-copy"></p><div id="summary-rounds" class="summary-rounds"></div><button class="submit-button" id="play-again">משחק נוסף</button><button class="text-button summary-close" id="summary-close">חזרה למפה</button></dialog>
+</body>
+</html>

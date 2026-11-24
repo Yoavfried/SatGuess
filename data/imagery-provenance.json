@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-11-23",
+  "primary": {
+    "name": "Israel orthophoto 2015, 2 metre",
+    "publisher": "Survey of Israel / המרכז למיפוי ישראל",
+    "captureYear": 2015,
+    "nativeResolutionMeters": 2,
+    "datasetUrl": "https://data.gov.il/he/datasets/israel_mapping_center/tly",
+    "metadataUrl": "https://data.gov.il/api/3/action/package_show?id=tly",
+    "licenseUrl": "https://data.gov.il/he/terms-of-use",
+    "licenseSummary": "DataGov default license applies where no separate dataset license is attached. Royalty-free worldwide perpetual commercial and noncommercial copying, adaptation, redistribution and public display are permitted subject to the license, including source attribution. The source dataset's individual license fields are blank.",
+    "tileHost": "Systematics Data Site",
+    "hostCatalogUrl": "https://www.arcgis.com/home/item.html?id=1ef1f7b0909e468b93d7e224bd94c13b",
+    "serviceItemId": "8d0dd08eb67847b2b5b6439c0c1fe000",
+    "access": "Public XYZ-compatible raster endpoint; no token, account or billing setup required. CORS response tested with a localhost Origin. This is a rehost of government open data, not Esri World Imagery.",
+    "hostingLimit": "No long-term availability or SLA verified for the public third-party tile host. Data rights and hosting availability are distinct."
+  },
+  "fallback": {
+    "name": "EOX Sentinel-2 cloudless 2016",
+    "nativeResolutionMeters": 10,
+    "license": "CC-BY-4.0",
+    "termsUrl": "https://cloudless.eox.at/documentation/faq",
+    "role": "Requested only for confirmed missing Survey pixels inside the permitted land mask. No global underlay is loaded. Fully outside tiles are rejected before imagery fetches; neighbouring pixels in boundary-tile payloads are clipped out before display."
+  }
+}

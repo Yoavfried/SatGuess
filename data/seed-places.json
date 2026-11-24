@@ -1,0 +1,2968 @@
+{
+  "source": "OpenStreetMap + Wikidata",
+  "license": "OSM records: ODbL-1.0; Wikidata records: CC0-1.0",
+  "attribution": "© OpenStreetMap contributors; Wikidata contributors",
+  "attributionUrl": "https://www.openstreetmap.org/copyright",
+  "retrievedAt": "2026-11-24",
+  "sources": [
+    {
+      "license": "ODbL-1.0",
+      "name": "OpenStreetMap",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    {
+      "license": "CC0-1.0",
+      "name": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Licensing"
+    }
+  ],
+  "limitations": "Source-screened prototype question pool, not an exhaustive national directory or an on-site coordinate survey. Names and category hints retain source evidence; coordinate precision is not a real-world accuracy guarantee. More uncertain candidates remain in a separate review pool.",
+  "places": [
+    {
+      "id": "wikidata/Q555350",
+      "name": "קניון עזריאלי",
+      "coordinates": [
+        34.7920806,
+        32.0743222
+      ],
+      "category": "קניון",
+      "city": "תל אביב-יפו",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q555350",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0"
+    },
+    {
+      "id": "wikidata/Q46815",
+      "name": "מוזיאון ישראל",
+      "coordinates": [
+        35.2041667,
+        31.7725
+      ],
+      "category": "מוזיאון",
+      "city": "ירושלים",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q46815",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0"
+    },
+    {
+      "id": "wikidata/Q156591",
+      "name": "יד ושם",
+      "coordinates": [
+        35.1772481,
+        31.7744239
+      ],
+      "category": "אתר הנצחה",
+      "city": "ירושלים",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q156591",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0"
+    },
+    {
+      "id": "wikidata/Q555750",
+      "name": "הבימה",
+      "coordinates": [
+        34.779,
+        32.0726944
+      ],
+      "category": "תיאטרון",
+      "city": "תל אביב-יפו",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q555750",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0"
+    },
+    {
+      "id": "wikidata/Q12066847",
+      "name": "קניון רמת אביב",
+      "coordinates": [
+        34.7958333,
+        32.1122222
+      ],
+      "category": "קניון",
+      "city": "תל אביב-יפו",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q12066847",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0"
+    },
+    {
+      "id": "wikidata/Q4182",
+      "name": "מכון ויצמן למדע",
+      "coordinates": [
+        34.8091667,
+        31.9075
+      ],
+      "category": "מכון מחקר",
+      "city": "רחובות",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q4182",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0"
+    },
+    {
+      "id": "wikidata/Q1177765",
+      "name": "מגדל דוד",
+      "coordinates": [
+        35.2277778,
+        31.7761111
+      ],
+      "category": "מוזיאון",
+      "city": "ירושלים",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1177765",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0"
+    },
+    {
+      "id": "wikidata/Q1267958",
+      "name": "מוזיאון תל אביב לאמנות",
+      "coordinates": [
+        34.7866667,
+        32.0775
+      ],
+      "category": "מוזיאון",
+      "city": "תל אביב-יפו",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1267958",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0"
+    },
+    {
+      "id": "wikidata/Q2620299",
+      "name": "היכל העצמאות",
+      "coordinates": [
+        34.7708333,
+        32.0627778
+      ],
+      "category": "מוזיאון",
+      "city": "תל אביב-יפו",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2620299",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0"
+    },
+    {
+      "id": "wikidata/Q2474391",
+      "name": "בית החולים סורוקה",
+      "coordinates": [
+        34.8015111,
+        31.2587972
+      ],
+      "category": "בית חולים",
+      "city": "באר שבע",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2474391",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0"
+    },
+    {
+      "id": "wikidata/Q2899864",
+      "name": "אצטדיון סמי עופר",
+      "coordinates": [
+        34.9651667,
+        32.7831111
+      ],
+      "category": "אצטדיון",
+      "city": "חיפה",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2899864",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0"
+    },
+    {
+      "id": "wikidata/Q737332",
+      "name": "אוניברסיטת בן גוריון בנגב",
+      "coordinates": [
+        34.8013889,
+        31.2622222
+      ],
+      "category": "אוניברסיטה",
+      "city": "באר שבע",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q737332",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0"
+    },
+    {
+      "id": "wikidata/Q1592883",
+      "name": "הגימנסיה העברית \"הרצליה\"",
+      "coordinates": [
+        34.7848278,
+        32.086975
+      ],
+      "category": "בית ספר",
+      "city": "תל אביב-יפו",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1592883",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0"
+    },
+    {
+      "id": "wikidata/Q1462314",
+      "name": "מקדש הבאב",
+      "coordinates": [
+        34.9872194,
+        32.8144389
+      ],
+      "category": "אתר דתי",
+      "city": "חיפה",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1462314",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0"
+    },
+    {
+      "id": "wikidata/Q6976972",
+      "name": "האריה השואג",
+      "coordinates": [
+        35.5766667,
+        33.2386111
+      ],
+      "category": "אתר הנצחה",
+      "city": "כפר גלעדי",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q6976972",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0"
+    },
+    {
+      "id": "wikidata/Q2094886",
+      "name": "חצר תל חי",
+      "coordinates": [
+        35.5783333,
+        33.235
+      ],
+      "category": "אתר מורשת",
+      "city": "כפר גלעדי",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2094886",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0"
+    },
+    {
+      "id": "wikidata/Q102041722",
+      "name": "מאיץ קופלר",
+      "coordinates": [
+        34.8123194,
+        31.90805
+      ],
+      "category": "אתר מדעי",
+      "city": "רחובות",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q102041722",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0"
+    },
+    {
+      "id": "wikidata/Q2915104",
+      "name": "כיכר רבין",
+      "coordinates": [
+        34.7805556,
+        32.0808333
+      ],
+      "category": "כיכר",
+      "city": "תל אביב-יפו",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2915104",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0"
+    },
+    {
+      "id": "osm/way/54448786",
+      "name": "אתר הפרדסאות ע\"ש מינקוב",
+      "coordinates": [
+        34.8142044,
+        31.911491
+      ],
+      "category": "מוזיאון",
+      "city": "רחובות",
+      "sourceUrl": "https://www.openstreetmap.org/way/54448786",
+      "coordinateMethod": "geometry-bounds-center",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/way/559058331",
+      "name": "גן המדע ע\"ש קלור",
+      "coordinates": [
+        34.81288,
+        31.9103251
+      ],
+      "category": "מוזיאון",
+      "city": "רחובות",
+      "sourceUrl": "https://www.openstreetmap.org/way/559058331",
+      "coordinateMethod": "geometry-bounds-center",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/way/158934529",
+      "name": "דגם ירושלים בימי בית שני",
+      "coordinates": [
+        35.202206,
+        31.7732039
+      ],
+      "category": "יצירת אמנות",
+      "city": "ירושלים",
+      "sourceUrl": "https://www.openstreetmap.org/way/158934529",
+      "coordinateMethod": "geometry-bounds-center",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/way/136009915",
+      "name": "היכל הספר",
+      "coordinates": [
+        35.2029676,
+        31.7734486
+      ],
+      "category": "מוזיאון",
+      "city": "ירושלים",
+      "sourceUrl": "https://www.openstreetmap.org/way/136009915",
+      "coordinateMethod": "geometry-bounds-center",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/way/216674312",
+      "name": "מוזיאון ארצות המקרא",
+      "coordinates": [
+        35.2024444,
+        31.7749049
+      ],
+      "category": "מוזיאון",
+      "city": "ירושלים",
+      "sourceUrl": "https://www.openstreetmap.org/way/216674312",
+      "coordinateMethod": "geometry-bounds-center",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/way/556531890",
+      "name": "אודיטוריום מיכאל סלע",
+      "coordinates": [
+        34.8092316,
+        31.9053158
+      ],
+      "category": "תיאטרון",
+      "city": "רחובות",
+      "sourceUrl": "https://www.openstreetmap.org/way/556531890",
+      "coordinateMethod": "geometry-bounds-center",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/way/361973554",
+      "name": "בי\"ס אמירים",
+      "coordinates": [
+        34.7994642,
+        31.268189
+      ],
+      "category": "בית ספר",
+      "city": "באר שבע",
+      "sourceUrl": "https://www.openstreetmap.org/way/361973554",
+      "coordinateMethod": "geometry-bounds-center",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/way/361977831",
+      "name": "בי\"ס ממ\"ד עץ חיים",
+      "coordinates": [
+        34.7994734,
+        31.2645409
+      ],
+      "category": "בית ספר",
+      "city": "באר שבע",
+      "sourceUrl": "https://www.openstreetmap.org/way/361977831",
+      "coordinateMethod": "geometry-bounds-center",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/way/662062855",
+      "name": "בית ספר נאות פרס",
+      "coordinates": [
+        34.9677587,
+        32.7816716
+      ],
+      "category": "בית ספר",
+      "city": "חיפה",
+      "sourceUrl": "https://www.openstreetmap.org/way/662062855",
+      "coordinateMethod": "geometry-bounds-center",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/way/87092849",
+      "name": "הפקולטה לחקלאות של האוניברסיטה העברית",
+      "coordinates": [
+        34.8029082,
+        31.9051262
+      ],
+      "category": "אוניברסיטה",
+      "city": "רחובות",
+      "sourceUrl": "https://www.openstreetmap.org/way/87092849",
+      "coordinateMethod": "geometry-bounds-center",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/node/963948437",
+      "name": "מרכז דה-שליט",
+      "coordinates": [
+        34.8132206,
+        31.9106387
+      ],
+      "category": "בית ספר",
+      "city": "רחובות",
+      "sourceUrl": "https://www.openstreetmap.org/node/963948437",
+      "coordinateMethod": "mapped-point",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/way/216656641",
+      "name": "מרכז עפרון למחול",
+      "coordinates": [
+        35.2063942,
+        31.7697598
+      ],
+      "category": "בית ספר",
+      "city": "ירושלים",
+      "sourceUrl": "https://www.openstreetmap.org/way/216656641",
+      "coordinateMethod": "geometry-bounds-center",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/way/361973578",
+      "name": "מרכז קהילתי בית פאני קפלן",
+      "coordinates": [
+        34.798925,
+        31.2681032
+      ],
+      "category": "מרכז קהילתי",
+      "city": "באר שבע",
+      "sourceUrl": "https://www.openstreetmap.org/way/361973578",
+      "coordinateMethod": "geometry-bounds-center",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/node/7238140846",
+      "name": "נגטיב",
+      "coordinates": [
+        34.8023418,
+        31.2621462
+      ],
+      "category": "קולנוע",
+      "city": "באר שבע",
+      "sourceUrl": "https://www.openstreetmap.org/node/7238140846",
+      "coordinateMethod": "mapped-point",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/way/40593886",
+      "name": "איצטדיון גבעת רם",
+      "coordinates": [
+        35.2001758,
+        31.7758099
+      ],
+      "category": "אצטדיון",
+      "city": "ירושלים",
+      "sourceUrl": "https://www.openstreetmap.org/way/40593886",
+      "coordinateMethod": "geometry-bounds-center",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/way/4709575",
+      "name": "גן סאקר",
+      "coordinates": [
+        35.2069701,
+        31.7798796
+      ],
+      "category": "פארק",
+      "city": "ירושלים",
+      "sourceUrl": "https://www.openstreetmap.org/way/4709575",
+      "coordinateMethod": "geometry-bounds-center",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/way/149747511",
+      "name": "בית ביאליק",
+      "coordinates": [
+        34.7710657,
+        32.0729156
+      ],
+      "category": "מוזיאון",
+      "city": "תל אביב-יפו",
+      "sourceUrl": "https://www.openstreetmap.org/way/149747511",
+      "coordinateMethod": "geometry-bounds-center",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/way/149747595",
+      "name": "בית העיר",
+      "coordinates": [
+        34.7710714,
+        32.0735037
+      ],
+      "category": "מוזיאון",
+      "city": "תל אביב-יפו",
+      "sourceUrl": "https://www.openstreetmap.org/way/149747595",
+      "coordinateMethod": "geometry-bounds-center",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/way/149528321",
+      "name": "בית ז'בוטינסקי",
+      "coordinates": [
+        34.7749019,
+        32.0728816
+      ],
+      "category": "מוזיאון",
+      "city": "תל אביב-יפו",
+      "sourceUrl": "https://www.openstreetmap.org/way/149528321",
+      "coordinateMethod": "geometry-bounds-center",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/way/149747522",
+      "name": "בית מקס ליבלינג",
+      "coordinates": [
+        34.7704442,
+        32.0734106
+      ],
+      "category": "מוזיאון",
+      "city": "תל אביב-יפו",
+      "sourceUrl": "https://www.openstreetmap.org/way/149747522",
+      "coordinateMethod": "geometry-bounds-center",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/way/149747420",
+      "name": "בית ראובן רובין",
+      "coordinates": [
+        34.7707364,
+        32.0720867
+      ],
+      "category": "מוזיאון",
+      "city": "תל אביב-יפו",
+      "sourceUrl": "https://www.openstreetmap.org/way/149747420",
+      "coordinateMethod": "geometry-bounds-center",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/way/1019383351",
+      "name": "ביתן הלנה רובינשטיין",
+      "coordinates": [
+        34.7793272,
+        32.0738173
+      ],
+      "category": "מוזיאון",
+      "city": "תל אביב-יפו",
+      "sourceUrl": "https://www.openstreetmap.org/way/1019383351",
+      "coordinateMethod": "geometry-bounds-center",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/relation/15311025",
+      "name": "דיזנגוף סנטר",
+      "coordinates": [
+        34.7749737,
+        32.0752356
+      ],
+      "category": "קניון",
+      "city": "תל אביב-יפו",
+      "sourceUrl": "https://www.openstreetmap.org/relation/15311025",
+      "coordinateMethod": "geometry-bounds-center",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/node/9405735961",
+      "name": "הברווז",
+      "coordinates": [
+        34.7787403,
+        32.0786297
+      ],
+      "category": "יצירת אמנות",
+      "city": "תל אביב-יפו",
+      "sourceUrl": "https://www.openstreetmap.org/node/9405735961",
+      "coordinateMethod": "mapped-point",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/way/130626671",
+      "name": "הלונדון מיניסטורס",
+      "coordinates": [
+        34.7823846,
+        32.0750891
+      ],
+      "category": "קניון",
+      "city": "תל אביב-יפו",
+      "sourceUrl": "https://www.openstreetmap.org/way/130626671",
+      "coordinateMethod": "geometry-bounds-center",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/node/3664366239",
+      "name": "התרוממות",
+      "coordinates": [
+        34.779333,
+        32.0722209
+      ],
+      "category": "יצירת אמנות",
+      "city": "תל אביב-יפו",
+      "sourceUrl": "https://www.openstreetmap.org/node/3664366239",
+      "coordinateMethod": "mapped-point",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/node/12063066379",
+      "name": "מוזיאון בית יוסף באו",
+      "coordinates": [
+        34.7799079,
+        32.0712548
+      ],
+      "category": "מוזיאון",
+      "city": "תל אביב-יפו",
+      "sourceUrl": "https://www.openstreetmap.org/node/12063066379",
+      "coordinateMethod": "mapped-point",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/way/1019049226",
+      "name": "מזרקת מים ואש",
+      "coordinates": [
+        34.7741952,
+        32.0779953
+      ],
+      "category": "אתר",
+      "city": "תל אביב-יפו",
+      "sourceUrl": "https://www.openstreetmap.org/way/1019049226",
+      "coordinateMethod": "geometry-bounds-center",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/way/1574188920",
+      "name": "בי\"ס תל נורדאו",
+      "coordinates": [
+        34.7712102,
+        32.0794296
+      ],
+      "category": "בית ספר",
+      "city": "תל אביב-יפו",
+      "sourceUrl": "https://www.openstreetmap.org/way/1574188920",
+      "coordinateMethod": "geometry-bounds-center",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/way/529039308",
+      "name": "ביכורים",
+      "coordinates": [
+        34.7843182,
+        32.0721034
+      ],
+      "category": "בית ספר",
+      "city": "תל אביב-יפו",
+      "sourceUrl": "https://www.openstreetmap.org/way/529039308",
+      "coordinateMethod": "geometry-bounds-center",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/node/345344103",
+      "name": "בית ליסין",
+      "coordinates": [
+        34.7736171,
+        32.0796303
+      ],
+      "category": "תיאטרון",
+      "city": "תל אביב-יפו",
+      "sourceUrl": "https://www.openstreetmap.org/node/345344103",
+      "coordinateMethod": "mapped-point",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/way/1393355234",
+      "name": "בית ספר יסודי גבריאלי הכרמל",
+      "coordinates": [
+        34.7783356,
+        32.0753084
+      ],
+      "category": "בית ספר",
+      "city": "תל אביב-יפו",
+      "sourceUrl": "https://www.openstreetmap.org/way/1393355234",
+      "coordinateMethod": "geometry-bounds-center",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/way/149520674",
+      "name": "בית ציוני אמריקה",
+      "coordinates": [
+        34.7823229,
+        32.0745982
+      ],
+      "category": "מרכז תרבות",
+      "city": "תל אביב-יפו",
+      "sourceUrl": "https://www.openstreetmap.org/way/149520674",
+      "coordinateMethod": "geometry-bounds-center",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/node/558133821",
+      "name": "האופרה הישראלית",
+      "coordinates": [
+        34.7847576,
+        32.0763543
+      ],
+      "category": "תיאטרון",
+      "city": "תל אביב-יפו",
+      "sourceUrl": "https://www.openstreetmap.org/node/558133821",
+      "coordinateMethod": "mapped-point",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/way/1019055536",
+      "name": "היכל התרבות",
+      "coordinates": [
+        34.7800117,
+        32.0734266
+      ],
+      "category": "תיאטרון",
+      "city": "תל אביב-יפו",
+      "sourceUrl": "https://www.openstreetmap.org/way/1019055536",
+      "coordinateMethod": "geometry-bounds-center",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/way/149744453",
+      "name": "המרכז הגאה",
+      "coordinates": [
+        34.7724928,
+        32.072633
+      ],
+      "category": "מרכז קהילתי",
+      "city": "תל אביב-יפו",
+      "sourceUrl": "https://www.openstreetmap.org/way/149744453",
+      "coordinateMethod": "geometry-bounds-center",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/node/558128704",
+      "name": "הקאמרי",
+      "coordinates": [
+        34.7845334,
+        32.0770063
+      ],
+      "category": "תיאטרון",
+      "city": "תל אביב-יפו",
+      "sourceUrl": "https://www.openstreetmap.org/node/558128704",
+      "coordinateMethod": "mapped-point",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/node/9965475692",
+      "name": "לב דיזנגוף",
+      "coordinates": [
+        34.7753592,
+        32.0748102
+      ],
+      "category": "קולנוע",
+      "city": "תל אביב-יפו",
+      "sourceUrl": "https://www.openstreetmap.org/node/9965475692",
+      "coordinateMethod": "mapped-point",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/way/149747454",
+      "name": "מרכז פליציה בלומנטל למוזיקה",
+      "coordinates": [
+        34.7712424,
+        32.073294
+      ],
+      "category": "מרכז קהילתי",
+      "city": "תל אביב-יפו",
+      "sourceUrl": "https://www.openstreetmap.org/way/149747454",
+      "coordinateMethod": "geometry-bounds-center",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/way/149521638",
+      "name": "סינמטק",
+      "coordinates": [
+        34.783407,
+        32.070718
+      ],
+      "category": "קולנוע",
+      "city": "תל אביב-יפו",
+      "sourceUrl": "https://www.openstreetmap.org/way/149521638",
+      "coordinateMethod": "geometry-bounds-center",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/node/12101869647",
+      "name": "צוותא",
+      "coordinates": [
+        34.7822687,
+        32.0752405
+      ],
+      "category": "תיאטרון",
+      "city": "תל אביב-יפו",
+      "sourceUrl": "https://www.openstreetmap.org/node/12101869647",
+      "coordinateMethod": "mapped-point",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/node/962966928",
+      "name": "רב חן דיזינגוף",
+      "coordinates": [
+        34.7734776,
+        32.0780861
+      ],
+      "category": "קולנוע",
+      "city": "תל אביב-יפו",
+      "sourceUrl": "https://www.openstreetmap.org/node/962966928",
+      "coordinateMethod": "mapped-point",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/way/203657101",
+      "name": "תיכון עירוני א' לאמנויות",
+      "coordinates": [
+        34.783988,
+        32.0710678
+      ],
+      "category": "בית ספר",
+      "city": "תל אביב-יפו",
+      "sourceUrl": "https://www.openstreetmap.org/way/203657101",
+      "coordinateMethod": "geometry-bounds-center",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/way/30146258",
+      "name": "גינת דובנוב",
+      "coordinates": [
+        34.7844353,
+        32.0777653
+      ],
+      "category": "פארק",
+      "city": "תל אביב-יפו",
+      "sourceUrl": "https://www.openstreetmap.org/way/30146258",
+      "coordinateMethod": "geometry-bounds-center",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/way/842380486",
+      "name": "גן יעקב",
+      "coordinates": [
+        34.7792927,
+        32.073458
+      ],
+      "category": "גן",
+      "city": "תל אביב-יפו",
+      "sourceUrl": "https://www.openstreetmap.org/way/842380486",
+      "coordinateMethod": "geometry-bounds-center",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/way/33631428",
+      "name": "גן מאיר",
+      "coordinates": [
+        34.7731002,
+        32.0730576
+      ],
+      "category": "פארק",
+      "city": "תל אביב-יפו",
+      "sourceUrl": "https://www.openstreetmap.org/way/33631428",
+      "coordinateMethod": "geometry-bounds-center",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/way/24893732",
+      "name": "כיכר מסריק",
+      "coordinates": [
+        34.778498,
+        32.0784496
+      ],
+      "category": "פארק",
+      "city": "תל אביב-יפו",
+      "sourceUrl": "https://www.openstreetmap.org/way/24893732",
+      "coordinateMethod": "geometry-bounds-center",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "osm/way/288050346",
+      "name": "פארק גני שרונה",
+      "coordinates": [
+        34.7866705,
+        32.0724175
+      ],
+      "category": "פארק",
+      "city": "תל אביב-יפו",
+      "sourceUrl": "https://www.openstreetmap.org/way/288050346",
+      "coordinateMethod": "geometry-bounds-center",
+      "dataSource": "OpenStreetMap",
+      "dataLicense": "ODbL-1.0"
+    },
+    {
+      "id": "wikidata/Q126485578",
+      "name": "קניון אשדוד",
+      "coordinates": [
+        34.640681893,
+        31.810359404
+      ],
+      "category": "קניון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q126485578",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q126485578",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%A7%D7%A0%D7%99%D7%95%D7%9F_%D7%90%D7%A9%D7%93%D7%95%D7%93",
+      "coordinatePrecision": 1e-8
+    },
+    {
+      "id": "wikidata/Q456800",
+      "name": "מיני ישראל",
+      "coordinates": [
+        34.968367,
+        31.842165
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q456800",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q456800",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%99%D7%A0%D7%99_%D7%99%D7%A9%D7%A8%D7%90%D7%9C",
+      "coordinatePrecision": 0.00000277777777778
+    },
+    {
+      "id": "wikidata/Q2915012",
+      "name": "בית חולים תל השומר",
+      "coordinates": [
+        34.845113888,
+        32.047152777
+      ],
+      "category": "בית חולים",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2915012",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q2915012",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%94%D7%9E%D7%A8%D7%9B%D7%96_%D7%94%D7%A8%D7%A4%D7%95%D7%90%D7%99_%D7%A2%22%D7%A9_%D7%97%D7%99%D7%99%D7%9D_%D7%A9%D7%99%D7%91%D7%90_%E2%80%93_%D7%AA%D7%9C_%D7%94%D7%A9%D7%95%D7%9E%D7%A8",
+      "coordinatePrecision": 0.00027777777777778
+    },
+    {
+      "id": "wikidata/Q1849789",
+      "name": "אצטדיון מרים",
+      "coordinates": [
+        34.864433,
+        32.294397
+      ],
+      "category": "אצטדיון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1849789",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q1849789",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%90%D7%A6%D7%98%D7%93%D7%99%D7%95%D7%9F_%D7%9E%D7%A8%D7%99%D7%9D",
+      "coordinatePrecision": 0.00001
+    },
+    {
+      "id": "wikidata/Q2331605",
+      "name": "מרכז רפואי הדסה",
+      "coordinates": [
+        35.149166666,
+        31.764722222
+      ],
+      "category": "בית חולים",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2331605",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q2331605",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%A8%D7%9B%D7%96_%D7%A8%D7%A4%D7%95%D7%90%D7%99_%D7%94%D7%93%D7%A1%D7%94",
+      "coordinatePrecision": 0.00027777777777778
+    },
+    {
+      "id": "wikidata/Q260983",
+      "name": "בית לוחמי הגטאות",
+      "coordinates": [
+        35.09527778,
+        32.96052778
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q260983",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q260983",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%91%D7%99%D7%AA_%D7%9C%D7%95%D7%97%D7%9E%D7%99_%D7%94%D7%92%D7%98%D7%90%D7%95%D7%AA",
+      "coordinatePrecision": 0.00002777777777778
+    },
+    {
+      "id": "wikidata/Q2919386",
+      "name": "מרכז רפואי ברזילי",
+      "coordinates": [
+        34.56052222,
+        31.66255
+      ],
+      "category": "בית חולים",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2919386",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q2919386",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%A8%D7%9B%D7%96_%D7%A8%D7%A4%D7%95%D7%90%D7%99_%D7%91%D7%A8%D7%96%D7%99%D7%9C%D7%99",
+      "coordinatePrecision": 0.00000277777777778
+    },
+    {
+      "id": "wikidata/Q2900208",
+      "name": "המרכז הרפואי לגליל",
+      "coordinates": [
+        35.116667,
+        33.009444
+      ],
+      "category": "בית חולים",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2900208",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q2900208",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%94%D7%9E%D7%A8%D7%9B%D7%96_%D7%94%D7%A8%D7%A4%D7%95%D7%90%D7%99_%D7%9C%D7%92%D7%9C%D7%99%D7%9C",
+      "coordinatePrecision": 0.00027777777777778
+    },
+    {
+      "id": "wikidata/Q2067213",
+      "name": "המרכז הרפואי שמיר",
+      "coordinates": [
+        34.839781,
+        31.9666
+      ],
+      "category": "בית חולים",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2067213",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q2067213",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%94%D7%9E%D7%A8%D7%9B%D7%96_%D7%94%D7%A8%D7%A4%D7%95%D7%90%D7%99_%D7%A9%D7%9E%D7%99%D7%A8",
+      "coordinatePrecision": 0.0001
+    },
+    {
+      "id": "wikidata/Q61126574",
+      "name": "ספריית כפר שמריהו",
+      "coordinates": [
+        34.82167835,
+        32.191499642
+      ],
+      "category": "ספרייה",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q61126574",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q61126574",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%A1%D7%A4%D7%A8%D7%99%D7%99%D7%AA_%D7%9B%D7%A4%D7%A8_%D7%A9%D7%9E%D7%A8%D7%99%D7%94%D7%95",
+      "coordinatePrecision": 1e-8
+    },
+    {
+      "id": "wikidata/Q17151122",
+      "name": "האצטדיון הבינלאומי דורא",
+      "coordinates": [
+        35.032164,
+        31.507053
+      ],
+      "category": "אצטדיון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q17151122",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q17151122",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%94%D7%90%D7%A6%D7%98%D7%93%D7%99%D7%95%D7%9F_%D7%94%D7%91%D7%99%D7%A0%D7%9C%D7%90%D7%95%D7%9E%D7%99_%D7%93%D7%95%D7%A8%D7%90",
+      "coordinatePrecision": 0.000001
+    },
+    {
+      "id": "wikidata/Q2076694",
+      "name": "אצטדיון דוחה",
+      "coordinates": [
+        35.31085,
+        32.866692
+      ],
+      "category": "אצטדיון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2076694",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q2076694",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%90%D7%A6%D7%98%D7%93%D7%99%D7%95%D7%9F_%D7%93%D7%95%D7%97%D7%94",
+      "coordinatePrecision": 0.0001
+    },
+    {
+      "id": "wikidata/Q7185696",
+      "name": "המרכז הרפואי זיו",
+      "coordinates": [
+        35.492778,
+        32.953611
+      ],
+      "category": "בית חולים",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q7185696",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q7185696",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%94%D7%9E%D7%A8%D7%9B%D7%96_%D7%94%D7%A8%D7%A4%D7%95%D7%90%D7%99_%D7%96%D7%99%D7%95",
+      "coordinatePrecision": 0.000277778
+    },
+    {
+      "id": "wikidata/Q6837181",
+      "name": "קניון עופר השרון",
+      "coordinates": [
+        34.86216111,
+        32.32648889
+      ],
+      "category": "קניון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q6837181",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q6837181",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%A7%D7%A0%D7%99%D7%95%D7%9F_%D7%A2%D7%95%D7%A4%D7%A8_%D7%94%D7%A9%D7%A8%D7%95%D7%9F",
+      "coordinatePrecision": 0.000001
+    },
+    {
+      "id": "wikidata/Q2777271",
+      "name": "המרכז הרפואי הלל יפה",
+      "coordinates": [
+        34.89593611,
+        32.45128611
+      ],
+      "category": "בית חולים",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2777271",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q2777271",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%94%D7%9E%D7%A8%D7%9B%D7%96_%D7%94%D7%A8%D7%A4%D7%95%D7%90%D7%99_%D7%94%D7%9C%D7%9C_%D7%99%D7%A4%D7%94",
+      "coordinatePrecision": 0.00000277777777778
+    },
+    {
+      "id": "wikidata/Q722560",
+      "name": "מרכז רפואי – צפון",
+      "coordinates": [
+        35.540384,
+        32.752332
+      ],
+      "category": "בית חולים",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q722560",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q722560",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%A8%D7%9B%D7%96_%D7%A8%D7%A4%D7%95%D7%90%D7%99_%D7%A6%D7%A4%D7%95%D7%9F_%E2%80%93_%D7%A4%D7%95%D7%A8%D7%99%D7%94",
+      "coordinatePrecision": 0.000001
+    },
+    {
+      "id": "wikidata/Q2620812",
+      "name": "דומוס גלילאה",
+      "coordinates": [
+        35.55177778,
+        32.90216389
+      ],
+      "category": "בית ספר",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2620812",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q2620812",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%93%D7%95%D7%9E%D7%95%D7%A1_%D7%92%D7%9C%D7%99%D7%9C%D7%90%D7%94",
+      "coordinatePrecision": 0.00000277777777778
+    },
+    {
+      "id": "wikidata/Q6416328",
+      "name": "אצטדיון עירוני קריית שמונה",
+      "coordinates": [
+        35.575629,
+        33.207894
+      ],
+      "category": "אצטדיון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q6416328",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q6416328",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%90%D7%A6%D7%98%D7%93%D7%99%D7%95%D7%9F_%D7%A2%D7%99%D7%A8%D7%95%D7%A0%D7%99_%D7%A7%D7%A8%D7%99%D7%99%D7%AA_%D7%A9%D7%9E%D7%95%D7%A0%D7%94",
+      "coordinatePrecision": 0.0001
+    },
+    {
+      "id": "wikidata/Q3525082",
+      "name": "אצטדיון טוטו עכו",
+      "coordinates": [
+        35.086067,
+        32.907897
+      ],
+      "category": "אצטדיון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q3525082",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q3525082",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%90%D7%A6%D7%98%D7%93%D7%99%D7%95%D7%9F_%D7%98%D7%95%D7%98%D7%95_%D7%A2%D7%9B%D7%95",
+      "coordinatePrecision": 0.0001
+    },
+    {
+      "id": "wikidata/Q15178279",
+      "name": "האצטדיון העירוני עפולה",
+      "coordinates": [
+        35.317111111,
+        32.627388888
+      ],
+      "category": "אצטדיון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q15178279",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q15178279",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%94%D7%90%D7%A6%D7%98%D7%93%D7%99%D7%95%D7%9F_%D7%94%D7%A2%D7%99%D7%A8%D7%95%D7%A0%D7%99_%D7%A2%D7%A4%D7%95%D7%9C%D7%94",
+      "coordinatePrecision": 0.000027777777777778
+    },
+    {
+      "id": "wikidata/Q12410917",
+      "name": "צריף בן-גוריון",
+      "coordinates": [
+        34.78916667,
+        30.87416667
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q12410917",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q12410917",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%A6%D7%A8%D7%99%D7%A3_%D7%91%D7%9F-%D7%92%D7%95%D7%A8%D7%99%D7%95%D7%9F",
+      "coordinatePrecision": 0.00027777777777778
+    },
+    {
+      "id": "wikidata/Q6582089",
+      "name": "קניון הזהב",
+      "coordinates": [
+        34.774194444,
+        31.990277777
+      ],
+      "category": "קניון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q6582089",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q6582089",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%A7%D7%A0%D7%99%D7%95%D7%9F_%D7%94%D7%96%D7%94%D7%91",
+      "coordinatePrecision": 0.000027777777777778
+    },
+    {
+      "id": "wikidata/Q19876418",
+      "name": "מוזיאון הטבע התנ\"כי",
+      "coordinates": [
+        34.9953,
+        31.7542
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q19876418",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q19876418",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F_%D7%94%D7%98%D7%91%D7%A2_%D7%94%D7%AA%D7%A0%22%D7%9B%D7%99",
+      "coordinatePrecision": 0.0001
+    },
+    {
+      "id": "wikidata/Q31198065",
+      "name": "קניון לב חדרה",
+      "coordinates": [
+        34.921777777,
+        32.43775
+      ],
+      "category": "קניון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q31198065",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q31198065",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%A7%D7%A0%D7%99%D7%95%D7%9F_%D7%9C%D7%91_%D7%97%D7%93%D7%A8%D7%94",
+      "coordinatePrecision": 0.000027777777777778
+    },
+    {
+      "id": "wikidata/Q107222211",
+      "name": "תיאטרון קריית מוצקין",
+      "coordinates": [
+        35.079910299,
+        32.844901316
+      ],
+      "category": "תיאטרון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q107222211",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q107222211",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%94%D7%99%D7%9B%D7%9C_%D7%94%D7%AA%D7%99%D7%90%D7%98%D7%A8%D7%95%D7%9F_%D7%A7%D7%A8%D7%99%D7%99%D7%AA_%D7%9E%D7%95%D7%A6%D7%A7%D7%99%D7%9F",
+      "coordinatePrecision": 1e-8
+    },
+    {
+      "id": "wikidata/Q3527423",
+      "name": "תיאטרון אל-קאסבה",
+      "coordinates": [
+        35.20392222,
+        31.90246944
+      ],
+      "category": "תיאטרון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q3527423",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q3527423",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%AA%D7%99%D7%90%D7%98%D7%A8%D7%95%D7%9F_%D7%90%D7%9C-%D7%A7%D7%90%D7%A1%D7%91%D7%94",
+      "coordinatePrecision": 0.00000277777777778
+    },
+    {
+      "id": "wikidata/Q6535697",
+      "name": "אצטדיון לויטה",
+      "coordinates": [
+        34.927071,
+        32.181115
+      ],
+      "category": "אצטדיון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q6535697",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q6535697",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%90%D7%A6%D7%98%D7%93%D7%99%D7%95%D7%9F_%D7%9C%D7%95%D7%99%D7%98%D7%94",
+      "coordinatePrecision": 0.0001
+    },
+    {
+      "id": "wikidata/Q12409359",
+      "name": "מעיין שחר",
+      "coordinates": [
+        34.938472222,
+        32.388388888
+      ],
+      "category": "בית ספר",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q12409359",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q12409359",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%A2%D7%99%D7%99%D7%9F_%D7%A9%D7%97%D7%A8",
+      "coordinatePrecision": 0.000027777777777778
+    },
+    {
+      "id": "wikidata/Q2902750",
+      "name": "מוזיאון ינקו דאדא",
+      "coordinates": [
+        34.979975,
+        32.70163611
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2902750",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q2902750",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F_%D7%99%D7%A0%D7%A7%D7%95_%D7%93%D7%90%D7%93%D7%90",
+      "coordinatePrecision": 0.00000277777777778
+    },
+    {
+      "id": "wikidata/Q5636400",
+      "name": "אצטדיון השלום",
+      "coordinates": [
+        35.155788888,
+        32.533180555
+      ],
+      "category": "אצטדיון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q5636400",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q5636400",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%90%D7%A6%D7%98%D7%93%D7%99%D7%95%D7%9F_%D7%94%D7%A9%D7%9C%D7%95%D7%9D",
+      "coordinatePrecision": 0.0000027777777777778
+    },
+    {
+      "id": "wikidata/Q16117448",
+      "name": "מוזיאון השומרונים",
+      "coordinates": [
+        35.270444444,
+        32.203805555
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q16117448",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q16117448",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F_%D7%94%D7%A9%D7%95%D7%9E%D7%A8%D7%95%D7%A0%D7%99%D7%9D_-_%D7%92%D7%A8%D7%99%D7%96%D7%99%D7%9D",
+      "coordinatePrecision": 0.000027777777777778
+    },
+    {
+      "id": "wikidata/Q6579568",
+      "name": "וילקומיץ",
+      "coordinates": [
+        35.534,
+        32.970333333
+      ],
+      "category": "בית ספר",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q6579568",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q6579568",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%95%D7%99%D7%9C%D7%A7%D7%95%D7%9E%D7%99%D7%A5",
+      "coordinatePrecision": 0.000027777777777778
+    },
+    {
+      "id": "wikidata/Q113002861",
+      "name": "מול זכרון",
+      "coordinates": [
+        34.933430748,
+        32.569210373
+      ],
+      "category": "קניון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q113002861",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q113002861",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%95%D7%9C_%D7%96%D7%9B%D7%A8%D7%95%D7%9F",
+      "coordinatePrecision": 1e-8
+    },
+    {
+      "id": "wikidata/Q7288850",
+      "name": "בית הספר של הקווייקרים ברמאללה",
+      "coordinates": [
+        35.199527926,
+        31.903194569
+      ],
+      "category": "בית ספר",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q7288850",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q7288850",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%91%D7%99%D7%AA_%D7%A1%D7%A4%D7%A8_%D7%94%D7%99%D7%93%D7%99%D7%93%D7%99%D7%9D_%D7%A9%D7%9C_%D7%A8%D7%9E%D7%90%D7%9C%D7%9C%D7%94",
+      "coordinatePrecision": 1e-8
+    },
+    {
+      "id": "wikidata/Q43032838",
+      "name": "בית החולים הכירורגי רפידיה",
+      "coordinates": [
+        35.2436555,
+        32.2251613
+      ],
+      "category": "בית חולים",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q43032838",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q43032838",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%91%D7%99%D7%AA_%D7%94%D7%97%D7%95%D7%9C%D7%99%D7%9D_%D7%94%D7%9B%D7%99%D7%A8%D7%95%D7%A8%D7%92%D7%99_%D7%A8%D7%A4%D7%99%D7%93%D7%99%D7%94",
+      "coordinatePrecision": 1e-7
+    },
+    {
+      "id": "wikidata/Q6773854",
+      "name": "המשכן לאמנות על שם חיים אתר",
+      "coordinates": [
+        35.393333333,
+        32.561111111
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q6773854",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q6773854",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%94%D7%9E%D7%A9%D7%9B%D7%9F_%D7%9C%D7%90%D7%9E%D7%A0%D7%95%D7%AA_%D7%A2%D7%9C_%D7%A9%D7%9D_%D7%97%D7%99%D7%99%D7%9D_%D7%90%D7%AA%D7%A8",
+      "coordinatePrecision": 0.00027777777777778
+    },
+    {
+      "id": "wikidata/Q12404559",
+      "name": "בית יגאל אלון",
+      "coordinates": [
+        35.525277777,
+        32.844444444
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q12404559",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q12404559",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%91%D7%99%D7%AA_%D7%99%D7%92%D7%90%D7%9C_%D7%90%D7%9C%D7%95%D7%9F",
+      "coordinatePrecision": 0.00027777777777778
+    },
+    {
+      "id": "wikidata/Q6563539",
+      "name": "קניון מול הים",
+      "coordinates": [
+        34.953888888,
+        29.549805555
+      ],
+      "category": "קניון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q6563539",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q6563539",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%A7%D7%A0%D7%99%D7%95%D7%9F_%D7%9E%D7%95%D7%9C_%D7%94%D7%99%D7%9D",
+      "coordinatePrecision": 0.000027777777777778
+    },
+    {
+      "id": "wikidata/Q16130245",
+      "name": "כפר הנוער ויצו נהלל",
+      "coordinates": [
+        35.200333333,
+        32.691722222
+      ],
+      "category": "בית ספר",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q16130245",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q16130245",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9B%D7%A4%D7%A8_%D7%94%D7%A0%D7%95%D7%A2%D7%A8_%D7%95%D7%99%D7%A6%D7%95_%D7%A0%D7%94%D7%9C%D7%9C",
+      "coordinatePrecision": 0.000027777777777778
+    },
+    {
+      "id": "wikidata/Q12408909",
+      "name": "מוזיאון הרעות",
+      "coordinates": [
+        35.556111111,
+        33.115277777
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q12408909",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q12408909",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F_%D7%94%D7%A8%D7%A2%D7%95%D7%AA",
+      "coordinatePrecision": 0.00027777777777778
+    },
+    {
+      "id": "wikidata/Q65938895",
+      "name": "ספריית המכללה האקדמית ספיר",
+      "coordinates": [
+        34.596054296,
+        31.510192935
+      ],
+      "category": "ספרייה",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q65938895",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q65938895",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%A1%D7%A4%D7%A8%D7%99%D7%99%D7%AA_%D7%94%D7%9E%D7%9B%D7%9C%D7%9C%D7%94_%D7%94%D7%90%D7%A7%D7%93%D7%9E%D7%99%D7%AA_%D7%A1%D7%A4%D7%99%D7%A8",
+      "coordinatePrecision": 1e-8
+    },
+    {
+      "id": "wikidata/Q97209927",
+      "name": "אצטדיון נינו",
+      "coordinates": [
+        34.73825,
+        31.734222222
+      ],
+      "category": "אצטדיון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q97209927",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q97209927",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%90%D7%A6%D7%98%D7%93%D7%99%D7%95%D7%9F_%D7%A0%D7%99%D7%A0%D7%95",
+      "coordinatePrecision": 0.000027777777777778
+    },
+    {
+      "id": "wikidata/Q12406775",
+      "name": "המרכז הרפואי הגריאטרי הרצפלד",
+      "coordinates": [
+        34.779722222,
+        31.807777777
+      ],
+      "category": "בית חולים",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q12406775",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q12406775",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%94%D7%9E%D7%A8%D7%9B%D7%96_%D7%94%D7%A8%D7%A4%D7%95%D7%90%D7%99_%D7%A9%D7%99%D7%A7%D7%95%D7%9E%D7%99_%D7%92%D7%A8%D7%99%D7%90%D7%98%D7%A8%D7%99_%D7%94%D7%A8%D7%A6%D7%A4%D7%9C%D7%93",
+      "coordinatePrecision": 0.00027777777777778
+    },
+    {
+      "id": "wikidata/Q65249654",
+      "name": "אצטדיון ג'קי לוי",
+      "coordinates": [
+        34.733574474,
+        31.874635508
+      ],
+      "category": "אצטדיון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q65249654",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q65249654",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%90%D7%A6%D7%98%D7%93%D7%99%D7%95%D7%9F_%D7%92%27%D7%A7%D7%99_%D7%9C%D7%95%D7%99",
+      "coordinatePrecision": 1e-8
+    },
+    {
+      "id": "wikidata/Q6973713",
+      "name": "מרכז ג'ו אלון",
+      "coordinates": [
+        34.864861111,
+        31.379305555
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q6973713",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q6973713",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%A8%D7%9B%D7%96_%D7%92%27%D7%95_%D7%90%D7%9C%D7%95%D7%9F",
+      "coordinatePrecision": 0.000027777777777778
+    },
+    {
+      "id": "wikidata/Q20502423",
+      "name": "קשת מזכרת בתיה",
+      "coordinates": [
+        34.849472222,
+        31.844277777
+      ],
+      "category": "בית ספר",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q20502423",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q20502423",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%91%D7%99%D7%AA_%D7%94%D7%A1%D7%A4%D7%A8_%D7%A7%D7%A9%D7%AA_(%D7%9E%D7%96%D7%9B%D7%A8%D7%AA_%D7%91%D7%AA%D7%99%D7%94)",
+      "coordinatePrecision": 0.000027777777777778
+    },
+    {
+      "id": "wikidata/Q109266427",
+      "name": "הספרייה הציבורית של תל מונד",
+      "coordinates": [
+        34.917983878,
+        32.252987421
+      ],
+      "category": "ספרייה",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q109266427",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q109266427",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%94%D7%A1%D7%A4%D7%A8%D7%99%D7%99%D7%94_%D7%94%D7%A6%D7%99%D7%91%D7%95%D7%A8%D7%99%D7%AA_%D7%A9%D7%9C_%D7%AA%D7%9C_%D7%9E%D7%95%D7%A0%D7%93",
+      "coordinatePrecision": 1e-8
+    },
+    {
+      "id": "wikidata/Q6800294",
+      "name": "מוזיאון המזגגה",
+      "coordinates": [
+        34.919480555,
+        32.612769444
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q6800294",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q6800294",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F_%D7%94%D7%9E%D7%96%D7%92%D7%92%D7%94",
+      "coordinatePrecision": 0.0000027777777777778
+    },
+    {
+      "id": "wikidata/Q6920498",
+      "name": "תיאטרון דימונה",
+      "coordinates": [
+        35.036916666,
+        31.062027777
+      ],
+      "category": "תיאטרון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q6920498",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q6920498",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%AA%D7%99%D7%90%D7%98%D7%A8%D7%95%D7%9F_%D7%93%D7%99%D7%9E%D7%95%D7%A0%D7%94",
+      "coordinatePrecision": 0.000027777777777778
+    },
+    {
+      "id": "wikidata/Q65251526",
+      "name": "קניון עזריאלי מודיעין",
+      "coordinates": [
+        35.008253731,
+        31.899847581
+      ],
+      "category": "קניון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q65251526",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q65251526",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%A7%D7%A0%D7%99%D7%95%D7%9F_%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99_%D7%9E%D7%95%D7%93%D7%99%D7%A2%D7%99%D7%9F",
+      "coordinatePrecision": 1e-8
+    },
+    {
+      "id": "wikidata/Q55905415",
+      "name": "ספריית באקה אל-גרבייה",
+      "coordinates": [
+        35.035669886,
+        32.429208315
+      ],
+      "category": "ספרייה",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q55905415",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q55905415",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%A1%D7%A4%D7%A8%D7%99%D7%99%D7%AA_%D7%91%D7%90%D7%A7%D7%94_%D7%90%D7%9C-%D7%92%D7%A8%D7%91%D7%99%D7%99%D7%94",
+      "coordinatePrecision": 1e-8
+    },
+    {
+      "id": "wikidata/Q133030652",
+      "name": "קניון הרים",
+      "coordinates": [
+        35.130377408,
+        31.645267702
+      ],
+      "category": "קניון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q133030652",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q133030652",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%A7%D7%A0%D7%99%D7%95%D7%9F_%D7%94%D7%A8%D7%99%D7%9D",
+      "coordinatePrecision": 1e-8
+    },
+    {
+      "id": "wikidata/Q12408901",
+      "name": "מוזיאון קדם לארכאולוגיה",
+      "coordinates": [
+        35.158583333,
+        32.210694444
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q12408901",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q12408901",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F_%D7%A7%D7%93%D7%9D_%D7%9C%D7%90%D7%A8%D7%9B%D7%90%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%94",
+      "coordinatePrecision": 0.000027777777777778
+    },
+    {
+      "id": "wikidata/Q6979217",
+      "name": "מוזיאון וילפריד ישראל לאמנות ולידיעת המזרח",
+      "coordinates": [
+        35.117664,
+        32.644439
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q6979217",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q6979217",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F_%D7%95%D7%99%D7%9C%D7%A4%D7%A8%D7%99%D7%93_%D7%99%D7%A9%D7%A8%D7%90%D7%9C_%D7%9C%D7%90%D7%9E%D7%A0%D7%95%D7%AA_%D7%95%D7%9C%D7%99%D7%93%D7%99%D7%A2%D7%AA_%D7%94%D7%9E%D7%96%D7%A8%D7%97",
+      "coordinatePrecision": 0.000001
+    },
+    {
+      "id": "wikidata/Q61126569",
+      "name": "הספרייה הציבורית של קריית טבעון",
+      "coordinates": [
+        35.126666666,
+        32.71225
+      ],
+      "category": "ספרייה",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q61126569",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q61126569",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%94%D7%A1%D7%A4%D7%A8%D7%99%D7%99%D7%94_%D7%94%D7%A6%D7%99%D7%91%D7%95%D7%A8%D7%99%D7%AA_%D7%A9%D7%9C_%D7%A7%D7%A8%D7%99%D7%99%D7%AA_%D7%98%D7%91%D7%A2%D7%95%D7%9F",
+      "coordinatePrecision": 0.000027777777777778
+    },
+    {
+      "id": "wikidata/Q55650439",
+      "name": "בית פישר",
+      "coordinates": [
+        35.105722222,
+        32.804944444
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q55650439",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q55650439",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%91%D7%99%D7%AA_%D7%A4%D7%99%D7%A9%D7%A8",
+      "coordinatePrecision": 0.000027777777777778
+    },
+    {
+      "id": "wikidata/Q20501984",
+      "name": "הספרייה האזורית מטה אשר",
+      "coordinates": [
+        35.111415962,
+        33.043734106
+      ],
+      "category": "ספרייה",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q20501984",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q20501984",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%94%D7%A1%D7%A4%D7%A8%D7%99%D7%99%D7%94_%D7%94%D7%90%D7%96%D7%95%D7%A8%D7%99%D7%AA_%D7%9E%D7%98%D7%94_%D7%90%D7%A9%D7%A8",
+      "coordinatePrecision": 1e-8
+    },
+    {
+      "id": "wikidata/Q61890574",
+      "name": "קניון העמקים",
+      "coordinates": [
+        35.293898,
+        32.603608
+      ],
+      "category": "קניון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q61890574",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q61890574",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%A7%D7%A0%D7%99%D7%95%D7%9F_%D7%94%D7%A2%D7%9E%D7%A7%D7%99%D7%9D",
+      "coordinatePrecision": 0.000001
+    },
+    {
+      "id": "wikidata/Q16130429",
+      "name": "מוזיאון בית היוצר",
+      "coordinates": [
+        35.363055555,
+        31.1525
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q16130429",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q16130429",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F_%D7%91%D7%99%D7%AA_%D7%94%D7%99%D7%95%D7%A6%D7%A8",
+      "coordinatePrecision": 0.00027777777777778
+    },
+    {
+      "id": "wikidata/Q6670350",
+      "name": "מוזיאון השומרוני הטוב",
+      "coordinates": [
+        35.358888888,
+        31.816388888
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q6670350",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q6670350",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F_%D7%94%D7%A9%D7%95%D7%9E%D7%A8%D7%95%D7%A0%D7%99_%D7%94%D7%98%D7%95%D7%91",
+      "coordinatePrecision": 0.00027777777777778
+    },
+    {
+      "id": "wikidata/Q16130475",
+      "name": "מוזיאון יק\"א, חצרות האיכרים כפר תבור",
+      "coordinates": [
+        35.42,
+        32.688194444
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q16130475",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q16130475",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F_%D7%99%D7%A7%22%D7%90,_%D7%97%D7%A6%D7%A8%D7%95%D7%AA_%D7%94%D7%90%D7%99%D7%9B%D7%A8%D7%99%D7%9D_%D7%9B%D7%A4%D7%A8_%D7%AA%D7%91%D7%95%D7%A8",
+      "coordinatePrecision": 0.000027777777777778
+    },
+    {
+      "id": "wikidata/Q6956061",
+      "name": "מוזיאון גולני",
+      "coordinates": [
+        35.410277777,
+        32.777305555
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q6956061",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q6956061",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F_%D7%92%D7%95%D7%9C%D7%A0%D7%99",
+      "coordinatePrecision": 0.000027777777777778
+    },
+    {
+      "id": "wikidata/Q56876015",
+      "name": "מוזיאון בר-דוד לאמנות ויודאיקה",
+      "coordinates": [
+        35.432111111,
+        33.059055555
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q56876015",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q56876015",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F_%D7%91%D7%A8-%D7%93%D7%95%D7%93_%D7%9C%D7%90%D7%9E%D7%A0%D7%95%D7%AA_%D7%95%D7%99%D7%95%D7%93%D7%90%D7%99%D7%A7%D7%94",
+      "coordinatePrecision": 0.000027777777777778
+    },
+    {
+      "id": "wikidata/Q12408911",
+      "name": "מוזיאון התרבות הירמוכית ע\"ש יהודה רות",
+      "coordinates": [
+        35.605388888,
+        32.685611111
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q12408911",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q12408911",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F_%D7%94%D7%AA%D7%A8%D7%91%D7%95%D7%AA_%D7%94%D7%99%D7%A8%D7%9E%D7%95%D7%9B%D7%99%D7%AA_%D7%A2%22%D7%A9_%D7%99%D7%94%D7%95%D7%93%D7%94_%D7%A8%D7%95%D7%AA",
+      "coordinatePrecision": 0.000027777777777778
+    },
+    {
+      "id": "wikidata/Q6681589",
+      "name": "עינות ירדן",
+      "coordinates": [
+        35.61993095,
+        33.176561552
+      ],
+      "category": "בית ספר",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q6681589",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q6681589",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%A2%D7%99%D7%A0%D7%95%D7%AA_%D7%99%D7%A8%D7%93%D7%9F",
+      "coordinatePrecision": 1e-8
+    },
+    {
+      "id": "wikidata/Q118342471",
+      "name": "הגדת חבל ימית",
+      "coordinates": [
+        34.346002703,
+        31.19575448
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q118342471",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q118342471",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%94%D7%92%D7%93%D7%AA_%D7%97%D7%91%D7%9C_%D7%99%D7%9E%D7%99%D7%AA",
+      "coordinatePrecision": 1e-8
+    },
+    {
+      "id": "wikidata/Q25491554",
+      "name": "בית הספר עהד למצוינות במדעים",
+      "coordinates": [
+        34.916361111,
+        31.300083333
+      ],
+      "category": "בית ספר",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q25491554",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q25491554",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%91%D7%99%D7%AA_%D7%94%D7%A1%D7%A4%D7%A8_%D7%A2%D7%94%D7%93_%D7%9C%D7%9E%D7%A6%D7%95%D7%99%D7%A0%D7%95%D7%AA_%D7%91%D7%9E%D7%93%D7%A2%D7%99%D7%9D",
+      "coordinatePrecision": 0.000027777777777778
+    },
+    {
+      "id": "wikidata/Q25495102",
+      "name": "ספרייה אזורית גזר",
+      "coordinates": [
+        34.916138888,
+        31.889055555
+      ],
+      "category": "ספרייה",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q25495102",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q25495102",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%A1%D7%A4%D7%A8%D7%99%D7%99%D7%94_%D7%90%D7%96%D7%95%D7%A8%D7%99%D7%AA_%D7%92%D7%96%D7%A8",
+      "coordinatePrecision": 0.000027777777777778
+    },
+    {
+      "id": "wikidata/Q6779797",
+      "name": "מוזיאון ארץ יהודה",
+      "coordinates": [
+        35.119024086,
+        31.529225887
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q6779797",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q6779797",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F_%D7%90%D7%A8%D7%A5_%D7%99%D7%94%D7%95%D7%93%D7%94",
+      "coordinatePrecision": 1e-8
+    },
+    {
+      "id": "wikidata/Q16129651",
+      "name": "בית הזיכרון לשואה ולגבורה באריאל",
+      "coordinates": [
+        35.179111111,
+        32.107916666
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q16129651",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q16129651",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%91%D7%99%D7%AA_%D7%94%D7%96%D7%99%D7%9B%D7%A8%D7%95%D7%9F_%D7%9C%D7%A9%D7%95%D7%90%D7%94_%D7%95%D7%9C%D7%92%D7%91%D7%95%D7%A8%D7%94_%D7%91%D7%90%D7%A8%D7%99%D7%90%D7%9C",
+      "coordinatePrecision": 0.000027777777777778
+    },
+    {
+      "id": "wikidata/Q16129925",
+      "name": "מגדל הרואה",
+      "coordinates": [
+        35.289638888,
+        32.056555555
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q16129925",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q16129925",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%92%D7%93%D7%9C_%D7%94%D7%A8%D7%95%D7%90%D7%94",
+      "coordinatePrecision": 0.000027777777777778
+    },
+    {
+      "id": "wikidata/Q18191935",
+      "name": "מוזיאון בית אורי ורמי נחושתן",
+      "coordinates": [
+        35.582611111,
+        32.660916666
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q18191935",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q18191935",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F_%D7%91%D7%99%D7%AA_%D7%90%D7%95%D7%A8%D7%99_%D7%95%D7%A8%D7%9E%D7%99_%D7%A0%D7%97%D7%95%D7%A9%D7%AA%D7%9F",
+      "coordinatePrecision": 0.000027777777777778
+    },
+    {
+      "id": "wikidata/Q23894294",
+      "name": "המוזיאון לתרבות הפלשתים ע\"ש קורין ממן",
+      "coordinates": [
+        34.642058333,
+        31.799369444
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q23894294",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q23894294",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%94%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F_%D7%9C%D7%AA%D7%A8%D7%91%D7%95%D7%AA_%D7%94%D7%A4%D7%9C%D7%A9%D7%AA%D7%99%D7%9D_%D7%A2%22%D7%A9_%D7%A7%D7%95%D7%A8%D7%99%D7%9F_%D7%9E%D7%9E%D7%9F",
+      "coordinatePrecision": 0.0000027777777777778
+    },
+    {
+      "id": "wikidata/Q45176630",
+      "name": "היכל התרבות פתח תקווה",
+      "coordinates": [
+        34.889166666,
+        32.094638888
+      ],
+      "category": "תיאטרון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q45176630",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q45176630",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%94%D7%99%D7%9B%D7%9C_%D7%94%D7%AA%D7%A8%D7%91%D7%95%D7%AA_%D7%A4%D7%AA%D7%97_%D7%AA%D7%A7%D7%95%D7%95%D7%94",
+      "coordinatePrecision": 0.000027777777777778
+    },
+    {
+      "id": "wikidata/Q2087862",
+      "name": "המרכז הרפואי שערי צדק",
+      "coordinates": [
+        35.185,
+        31.77305556
+      ],
+      "category": "בית חולים",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2087862",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q2087862",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%94%D7%9E%D7%A8%D7%9B%D7%96_%D7%94%D7%A8%D7%A4%D7%95%D7%90%D7%99_%D7%A9%D7%A2%D7%A8%D7%99_%D7%A6%D7%93%D7%A7",
+      "coordinatePrecision": 0.00027777777777778
+    },
+    {
+      "id": "wikidata/Q25303238",
+      "name": "מכון ליאו בק בירושלים",
+      "coordinates": [
+        35.212170247,
+        31.763008425
+      ],
+      "category": "ספרייה",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q25303238",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q25303238",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%9B%D7%95%D7%9F_%D7%9C%D7%99%D7%90%D7%95_%D7%91%D7%A7_%D7%99%D7%A8%D7%95%D7%A9%D7%9C%D7%99%D7%9D",
+      "coordinatePrecision": 1e-8
+    },
+    {
+      "id": "wikidata/Q2895355",
+      "name": "הרצליה מדיקל סנטר",
+      "coordinates": [
+        34.8032,
+        32.1774
+      ],
+      "category": "בית חולים",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2895355",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q2895355",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%94%D7%A8%D7%A6%D7%9C%D7%99%D7%94_%D7%9E%D7%93%D7%99%D7%A7%D7%9C_%D7%A1%D7%A0%D7%98%D7%A8",
+      "coordinatePrecision": 0.00000277777777778
+    },
+    {
+      "id": "wikidata/Q2918008",
+      "name": "בית חולים לניאדו",
+      "coordinates": [
+        34.856756,
+        32.345097
+      ],
+      "category": "בית חולים",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2918008",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q2918008",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9C%D7%A0%D7%99%D7%90%D7%93%D7%95_-_%D7%9E%D7%A8%D7%9B%D7%96_%D7%A8%D7%A4%D7%95%D7%90%D7%99_%D7%A6%D7%90%D7%A0%D7%96",
+      "coordinatePrecision": 0.0001
+    },
+    {
+      "id": "wikidata/Q4702679",
+      "name": "אצטדיון אל-ח'דר",
+      "coordinates": [
+        35.160675,
+        31.70443333
+      ],
+      "category": "אצטדיון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q4702679",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q4702679",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%90%D7%A6%D7%98%D7%93%D7%99%D7%95%D7%9F_%D7%90%D7%9C-%D7%97%27%D7%93%D7%A8",
+      "coordinatePrecision": 0.00000277777777778
+    },
+    {
+      "id": "wikidata/Q2919405",
+      "name": "מרכז רפואי העמק",
+      "coordinates": [
+        35.31686111,
+        32.62218889
+      ],
+      "category": "בית חולים",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2919405",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q2919405",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%A8%D7%9B%D7%96_%D7%A8%D7%A4%D7%95%D7%90%D7%99_%D7%94%D7%A2%D7%9E%D7%A7",
+      "coordinatePrecision": 0.00000277777777778
+    },
+    {
+      "id": "wikidata/Q55648350",
+      "name": "תיאטרון חולון",
+      "coordinates": [
+        34.773611111,
+        32.026666666
+      ],
+      "category": "תיאטרון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q55648350",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q55648350",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%AA%D7%99%D7%90%D7%98%D7%A8%D7%95%D7%9F_%D7%97%D7%95%D7%9C%D7%95%D7%9F",
+      "coordinatePrecision": 0.00027777777777778
+    },
+    {
+      "id": "wikidata/Q1185882",
+      "name": "בית הספר הדמוקרטי בחדרה",
+      "coordinates": [
+        34.922661111,
+        32.421486111
+      ],
+      "category": "בית ספר",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1185882",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q1185882",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%91%D7%99%D7%AA_%D7%94%D7%A1%D7%A4%D7%A8_%D7%94%D7%93%D7%9E%D7%95%D7%A7%D7%A8%D7%98%D7%99_%D7%91%D7%97%D7%93%D7%A8%D7%94",
+      "coordinatePrecision": 0.00027777777777778
+    },
+    {
+      "id": "wikidata/Q6610915",
+      "name": "תיאטרון הצפון",
+      "coordinates": [
+        35.074027777,
+        32.821888888
+      ],
+      "category": "תיאטרון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q6610915",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q6610915",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%AA%D7%99%D7%90%D7%98%D7%A8%D7%95%D7%9F_%D7%94%D7%A6%D7%A4%D7%95%D7%9F",
+      "coordinatePrecision": 0.000027777777777778
+    },
+    {
+      "id": "wikidata/Q55649660",
+      "name": "מרכז אופק",
+      "coordinates": [
+        34.910121102,
+        32.384342424
+      ],
+      "category": "בית ספר",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q55649660",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q55649660",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%A8%D7%9B%D7%96_%D7%90%D7%95%D7%A4%D7%A7",
+      "coordinatePrecision": 1e-8
+    },
+    {
+      "id": "wikidata/Q2903198",
+      "name": "מצודת ביריה",
+      "coordinates": [
+        35.507909,
+        32.990416
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2903198",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q2903198",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%A6%D7%95%D7%93%D7%AA_%D7%91%D7%99%D7%A8%D7%99%D7%94",
+      "coordinatePrecision": 0.00000277777777778
+    },
+    {
+      "id": "wikidata/Q28870049",
+      "name": "מרכז מורשת יהדות בבל",
+      "coordinates": [
+        34.854333333,
+        32.026055555
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q28870049",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q28870049",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%A8%D7%9B%D7%96_%D7%9E%D7%95%D7%A8%D7%A9%D7%AA_%D7%99%D7%94%D7%93%D7%95%D7%AA_%D7%91%D7%91%D7%9C",
+      "coordinatePrecision": 0.000027777777777778
+    },
+    {
+      "id": "wikidata/Q16339735",
+      "name": "חווה חקלאית ערוגות רבקה",
+      "coordinates": [
+        34.956638888,
+        32.564944444
+      ],
+      "category": "בית ספר",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q16339735",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q16339735",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%97%D7%95%D7%95%D7%94_%D7%97%D7%A7%D7%9C%D7%90%D7%99%D7%AA_%D7%A2%D7%A8%D7%95%D7%92%D7%95%D7%AA_%D7%A8%D7%91%D7%A7%D7%94",
+      "coordinatePrecision": 0.000027777777777778
+    },
+    {
+      "id": "wikidata/Q85994950",
+      "name": "קניון עיר ימים",
+      "coordinates": [
+        34.847079583,
+        32.279296765
+      ],
+      "category": "קניון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q85994950",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q85994950",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%A7%D7%A0%D7%99%D7%95%D7%9F_%D7%A2%D7%99%D7%A8_%D7%99%D7%9E%D7%99%D7%9D",
+      "coordinatePrecision": 1e-8
+    },
+    {
+      "id": "wikidata/Q6684330",
+      "name": "טכנודע חדרה",
+      "coordinates": [
+        34.888611111,
+        32.438538888
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q6684330",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q6684330",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%98%D7%9B%D7%A0%D7%95%D7%93%D7%A2_%D7%97%D7%93%D7%A8%D7%94",
+      "coordinatePrecision": 0.0000027777777777778
+    },
+    {
+      "id": "wikidata/Q16128660",
+      "name": "המוזיאון לראשית ההתיישבות בעמק",
+      "coordinates": [
+        35.225027777,
+        32.673833333
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q16128660",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q16128660",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%94%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F_%D7%9C%D7%A8%D7%90%D7%A9%D7%99%D7%AA_%D7%94%D7%94%D7%AA%D7%99%D7%99%D7%A9%D7%91%D7%95%D7%AA_%D7%91%D7%A2%D7%9E%D7%A7",
+      "coordinatePrecision": 0.000027777777777778
+    },
+    {
+      "id": "wikidata/Q6564669",
+      "name": "מוזיאון בית שטורמן",
+      "coordinates": [
+        35.395011111,
+        32.559780555
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q6564669",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q6564669",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F_%D7%91%D7%99%D7%AA_%D7%A9%D7%98%D7%95%D7%A8%D7%9E%D7%9F",
+      "coordinatePrecision": 0.0000027777777777778
+    },
+    {
+      "id": "wikidata/Q12407325",
+      "name": "חוות כנרת",
+      "coordinates": [
+        35.565416666,
+        32.713166666
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q12407325",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q12407325",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%97%D7%95%D7%95%D7%AA_%D7%9B%D7%A0%D7%A8%D7%AA",
+      "coordinatePrecision": 0.000027777777777778
+    },
+    {
+      "id": "wikidata/Q4248139",
+      "name": "אחוזת דוברובין",
+      "coordinates": [
+        35.59918056,
+        33.062125
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q4248139",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q4248139",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%90%D7%97%D7%95%D7%96%D7%AA_%D7%93%D7%95%D7%91%D7%A8%D7%95%D7%91%D7%99%D7%9F",
+      "coordinatePrecision": 0.00000277777777778
+    },
+    {
+      "id": "wikidata/Q63247953",
+      "name": "מוזיאון המים והביטחון בנגב",
+      "coordinates": [
+        34.572365,
+        31.518539
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q63247953",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q63247953",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F_%D7%94%D7%9E%D7%99%D7%9D_%D7%95%D7%94%D7%91%D7%99%D7%98%D7%97%D7%95%D7%9F_%D7%91%D7%A0%D7%92%D7%91",
+      "coordinatePrecision": 0.000001
+    },
+    {
+      "id": "wikidata/Q110667709",
+      "name": "מוזיאון יד מרדכי משואה לתקומה",
+      "coordinates": [
+        34.557291217,
+        31.590046453
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q110667709",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q110667709",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F_%D7%99%D7%93_%D7%9E%D7%A8%D7%93%D7%9B%D7%99_%D7%9E%D7%A9%D7%95%D7%90%D7%94_%D7%9C%D7%AA%D7%A7%D7%95%D7%9E%D7%94",
+      "coordinatePrecision": 1e-8
+    },
+    {
+      "id": "wikidata/Q131176175",
+      "name": "בית הספר הראשון בגדרה",
+      "coordinates": [
+        34.773771057,
+        31.815596296
+      ],
+      "category": "בית ספר",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q131176175",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q131176175",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%91%D7%99%D7%AA_%D7%94%D7%A1%D7%A4%D7%A8_%D7%94%D7%A8%D7%90%D7%A9%D7%95%D7%9F_%D7%91%D7%92%D7%93%D7%A8%D7%94",
+      "coordinatePrecision": 1e-8
+    },
+    {
+      "id": "wikidata/Q97570495",
+      "name": "בית חולים נאות המושבה",
+      "coordinates": [
+        34.791260265,
+        31.920903232
+      ],
+      "category": "בית חולים",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q97570495",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q97570495",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%91%D7%99%D7%AA_%D7%97%D7%95%D7%9C%D7%99%D7%9D_%D7%A0%D7%90%D7%95%D7%AA_%D7%94%D7%9E%D7%95%D7%A9%D7%91%D7%94",
+      "coordinatePrecision": 1e-8
+    },
+    {
+      "id": "wikidata/Q141015105",
+      "name": "מוזיאון הרב מוהליבר",
+      "coordinates": [
+        34.839842699,
+        31.855196708
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q141015105",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q141015105",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F_%D7%94%D7%A8%D7%91_%D7%9E%D7%95%D7%94%D7%9C%D7%99%D7%91%D7%A8",
+      "coordinatePrecision": 1e-8
+    },
+    {
+      "id": "wikidata/Q16129570",
+      "name": "משטרת לטרון",
+      "coordinates": [
+        34.98036,
+        31.8381
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q16129570",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q16129570",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%A9%D7%98%D7%A8%D7%AA_%D7%9C%D7%98%D7%A8%D7%95%D7%9F",
+      "coordinatePrecision": 0.00001
+    },
+    {
+      "id": "wikidata/Q85337334",
+      "name": "מוזיאון כפר סבא",
+      "coordinates": [
+        34.906077605,
+        32.177692668
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q85337334",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q85337334",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F_%D7%9B%D7%A4%D7%A8_%D7%A1%D7%91%D7%90",
+      "coordinatePrecision": 1e-8
+    },
+    {
+      "id": "wikidata/Q97212439",
+      "name": "מוזיאון הטרקטור",
+      "coordinates": [
+        34.9410261,
+        32.267415434
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q97212439",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q97212439",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F_%D7%94%D7%98%D7%A8%D7%A7%D7%98%D7%95%D7%A8",
+      "coordinatePrecision": 1e-8
+    },
+    {
+      "id": "wikidata/Q6578378",
+      "name": "מבואות עירון",
+      "coordinates": [
+        35.006722222,
+        32.461916666
+      ],
+      "category": "בית ספר",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q6578378",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q6578378",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%91%D7%95%D7%90%D7%95%D7%AA_%D7%A2%D7%99%D7%A8%D7%95%D7%9F",
+      "coordinatePrecision": 0.000027777777777778
+    },
+    {
+      "id": "wikidata/Q43295330",
+      "name": "המוזיאון לתולדות תעשיית השמן",
+      "coordinates": [
+        35.096231771,
+        32.975475418
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q43295330",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q43295330",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%94%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F_%D7%9C%D7%AA%D7%95%D7%9C%D7%93%D7%95%D7%AA_%D7%AA%D7%A2%D7%A9%D7%99%D7%99%D7%AA_%D7%94%D7%A9%D7%9E%D7%9F",
+      "coordinatePrecision": 1e-8
+    },
+    {
+      "id": "wikidata/Q6922984",
+      "name": "מכון עמיאל",
+      "coordinates": [
+        35.143166666,
+        31.640944444
+      ],
+      "category": "בית ספר",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q6922984",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q6922984",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%9B%D7%95%D7%9F_%D7%A2%D7%9E%D7%99%D7%90%D7%9C",
+      "coordinatePrecision": 0.000027777777777778
+    },
+    {
+      "id": "wikidata/Q100723930",
+      "name": "מוזיאון חניתה לחומה ומגדל",
+      "coordinates": [
+        35.174451,
+        33.088108
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q100723930",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q100723930",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F_%D7%97%D7%A0%D7%99%D7%AA%D7%94_%D7%9C%D7%97%D7%95%D7%9E%D7%94_%D7%95%D7%9E%D7%92%D7%93%D7%9C",
+      "coordinatePrecision": 0.000001
+    },
+    {
+      "id": "wikidata/Q141757047",
+      "name": "מוזיאון אילת",
+      "coordinates": [
+        34.952865647,
+        29.551719325
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q141757047",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q141757047",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F_%D7%90%D7%99%D7%9C%D7%AA",
+      "coordinatePrecision": 1e-8
+    },
+    {
+      "id": "wikidata/Q86007884",
+      "name": "האצטדיון העירוני דימונה",
+      "coordinates": [
+        35.029440236,
+        31.080066359
+      ],
+      "category": "אצטדיון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q86007884",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q86007884",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%94%D7%90%D7%A6%D7%98%D7%93%D7%99%D7%95%D7%9F_%D7%94%D7%A2%D7%99%D7%A8%D7%95%D7%A0%D7%99_%D7%93%D7%99%D7%9E%D7%95%D7%A0%D7%94",
+      "coordinatePrecision": 1e-8
+    },
+    {
+      "id": "wikidata/Q31197936",
+      "name": "מוזיאון בית חנקין",
+      "coordinates": [
+        35.154138888,
+        32.6825
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q31197936",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q31197936",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F_%D7%91%D7%99%D7%AA_%D7%97%D7%A0%D7%A7%D7%99%D7%9F",
+      "coordinatePrecision": 0.000027777777777778
+    },
+    {
+      "id": "wikidata/Q109675962",
+      "name": "מיי בייבי",
+      "coordinates": [
+        35.172583639,
+        32.946844302
+      ],
+      "category": "קניון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q109675962",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q109675962",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%99%D7%99_%D7%91%D7%99%D7%99%D7%91%D7%99",
+      "coordinatePrecision": 1e-8
+    },
+    {
+      "id": "wikidata/Q140550349",
+      "name": "קניון חוצות כרמיאל",
+      "coordinates": [
+        35.325745551,
+        32.928188633
+      ],
+      "category": "קניון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q140550349",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q140550349",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%A7%D7%A0%D7%99%D7%95%D7%9F_%D7%97%D7%95%D7%A6%D7%95%D7%AA_%D7%9B%D7%A8%D7%9E%D7%99%D7%90%D7%9C",
+      "coordinatePrecision": 1e-8
+    },
+    {
+      "id": "wikidata/Q107600528",
+      "name": "המוזיאון הצ'רקסי",
+      "coordinates": [
+        35.441836763,
+        32.722142194
+      ],
+      "category": "מוזיאון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q107600528",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q107600528",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%94%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F_%D7%94%D7%A6%27%D7%A8%D7%A7%D7%A1%D7%99",
+      "coordinatePrecision": 1e-8
+    },
+    {
+      "id": "wikidata/Q86006577",
+      "name": "בית הספר דרכא דנציגר קריית שמונה",
+      "coordinates": [
+        35.5761424,
+        33.2051461
+      ],
+      "category": "בית ספר",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q86006577",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q86006577",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%A7%D7%A8%D7%99%D7%99%D7%AA_%D7%97%D7%99%D7%A0%D7%95%D7%9A_%D7%90%D7%95%D7%A8%D7%98_%D7%93%D7%A0%D7%A6%D7%99%D7%92%D7%A8",
+      "coordinatePrecision": 1e-7
+    },
+    {
+      "id": "wikidata/Q135472671",
+      "name": "בית ספר הגומא",
+      "coordinates": [
+        35.61168898,
+        33.170867312
+      ],
+      "category": "בית ספר",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q135472671",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q135472671",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%91%D7%99%D7%AA_%D7%A1%D7%A4%D7%A8_%D7%94%D7%92%D7%95%D7%9E%D7%90",
+      "coordinatePrecision": 1e-8
+    },
+    {
+      "id": "wikidata/Q126684715",
+      "name": "תיאטרון היהלום",
+      "coordinates": [
+        34.802841,
+        32.0847077
+      ],
+      "category": "תיאטרון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q126684715",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q126684715",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%AA%D7%99%D7%90%D7%98%D7%A8%D7%95%D7%9F_%D7%94%D7%99%D7%94%D7%9C%D7%95%D7%9D",
+      "coordinatePrecision": 1e-7
+    },
+    {
+      "id": "wikidata/Q555919",
+      "name": "תיאטרון ירושלים",
+      "coordinates": [
+        35.21564444,
+        31.76891111
+      ],
+      "category": "תיאטרון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q555919",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q555919",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%AA%D7%99%D7%90%D7%98%D7%A8%D7%95%D7%9F_%D7%99%D7%A8%D7%95%D7%A9%D7%9C%D7%99%D7%9D",
+      "coordinatePrecision": 0.00000277777777778
+    },
+    {
+      "id": "wikidata/Q2898086",
+      "name": "בית חולים אלי\"ן",
+      "coordinates": [
+        35.168669,
+        31.768716
+      ],
+      "category": "בית חולים",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2898086",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q2898086",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%91%D7%99%D7%AA_%D7%97%D7%95%D7%9C%D7%99%D7%9D_%D7%90%D7%9C%D7%99%22%D7%9F",
+      "coordinatePrecision": 0.0001
+    },
+    {
+      "id": "wikidata/Q2907177",
+      "name": "האצטדיון העירוני הרצליה",
+      "coordinates": [
+        34.824793,
+        32.167839
+      ],
+      "category": "אצטדיון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q2907177",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q2907177",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%94%D7%90%D7%A6%D7%98%D7%93%D7%99%D7%95%D7%9F_%D7%94%D7%A2%D7%99%D7%A8%D7%95%D7%A0%D7%99_%D7%94%D7%A8%D7%A6%D7%9C%D7%99%D7%94",
+      "coordinatePrecision": 0.0001
+    },
+    {
+      "id": "wikidata/Q641841",
+      "name": "אצטדיון הברפלד",
+      "coordinates": [
+        34.752839,
+        31.974994
+      ],
+      "category": "אצטדיון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q641841",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q641841",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%90%D7%A6%D7%98%D7%93%D7%99%D7%95%D7%9F_%D7%94%D7%91%D7%A8%D7%A4%D7%9C%D7%93",
+      "coordinatePrecision": 0.0001
+    },
+    {
+      "id": "wikidata/Q367791",
+      "name": "קניון רמות",
+      "coordinates": [
+        35.19446667,
+        31.81781667
+      ],
+      "category": "קניון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q367791",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q367791",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%A7%D7%A0%D7%99%D7%95%D7%9F_%D7%A8%D7%9E%D7%95%D7%AA",
+      "coordinatePrecision": 0.00000277777777778
+    },
+    {
+      "id": "wikidata/Q61126820",
+      "name": "קולנוע אורות",
+      "coordinates": [
+        35.076569,
+        32.829485
+      ],
+      "category": "תיאטרון",
+      "city": "",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q61126820",
+      "dataSource": "Wikidata",
+      "dataLicense": "CC0-1.0",
+      "wikidataQid": "Q61126820",
+      "reviewStatus": "source-screened",
+      "heWikipediaUrl": "https://he.wikipedia.org/wiki/%D7%A7%D7%95%D7%9C%D7%A0%D7%95%D7%A2_%D7%90%D7%95%D7%A8%D7%95%D7%AA_(%D7%A7%D7%A8%D7%99%D7%99%D7%AA_%D7%9E%D7%95%D7%A6%D7%A7%D7%99%D7%9F)",
+      "coordinatePrecision": 0.000001
+    }
+  ]
+}

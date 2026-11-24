@@ -1,0 +1,17 @@
+{
+  "name": "satguess",
+  "version": "0.2.0",
+  "description": "A Hebrew satellite-map geography guessing game.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yoavfried/SatGuess.git"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test",
+    "check": "node --check dist/app.mjs"
+  }
+}

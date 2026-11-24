@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "createdDate": "2026-11-23",
+  "purpose": "Playable-area geometry for the user-selected region: Israel proper, the Golan Heights, and the West Bank; Gaza, surrounding countries, and Mediterranean/Red Sea waters are excluded. This is a gameplay selection, not a sovereignty or legal-border claim.",
+  "format": "GeoJSON RFC 7946 longitude/latitude (EPSG:4326)",
+  "coverageBounds": [
+    34.2674994,
+    29.4906199,
+    35.8950234,
+    33.3356317
+  ],
+  "geometrySemantics": "One Feature with dissolved MultiPolygon geometry. All selected source polygons were unioned to remove administrative seams and overlaps. The inverse mask is the world rectangle [-180,-85,180,85] minus this same dissolved geometry.",
+  "sources": [
+    {
+      "dataset": "geoBoundaries gbOpen ISR ADM0",
+      "metadataUrl": "https://www.geoboundaries.org/api/current/gbOpen/ISR/ADM0/",
+      "pinnedCommit": "9469f09",
+      "downloadUrl": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09/releaseData/gbOpen/ISR/ADM0/geoBoundaries-ISR-ADM0.geojson",
+      "upstreamSha256": "19d7d535f1dea08ac558558af3a4e9521a8dcc498e2794c456b87e6b925b0e82",
+      "upstreamShapeProperties": {
+        "shapeName": "Israel",
+        "shapeISO": "ISR",
+        "shapeID": "37499698B85405554690205",
+        "shapeGroup": "ISR",
+        "shapeType": "ADM0"
+      },
+      "license": "ODbL-1.0",
+      "licenseUrl": "https://www.openstreetmap.org/copyright",
+      "sourceDescription": "OpenStreetMap, Wambacher; boundaryYearRepresented 2017; boundaryID ISR-ADM0-37499698; sourceDataUpdateDate 2023-01-19; buildDate 2023-12-12. Includes Golan Heights and East Jerusalem, as verified by point tests."
+    },
+    {
+      "dataset": "geoBoundaries gbOpen PSE ADM0",
+      "metadataUrl": "https://www.geoboundaries.org/api/current/gbOpen/PSE/ADM0/",
+      "pinnedCommit": "9469f09",
+      "downloadUrl": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09/releaseData/gbOpen/PSE/ADM0/geoBoundaries-PSE-ADM0.geojson",
+      "upstreamSha256": "ad8d5e564d5023e06e3899e3c4435c0a7e5f4a9fb117019ef8f6d522a3f96640",
+      "upstreamShapeProperties": {
+        "shapeName": "State of Palestine",
+        "shapeISO": "PSE",
+        "shapeID": "62339095B98297478170311",
+        "shapeGroup": "PSE",
+        "shapeType": "ADM0"
+      },
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceDescription": "Raster2polygon from Sentinel-2 10m Land Cover, Image Year 2021; water removed; dissolved and ADM0 overlaps erased; processed by IMB. boundaryID PSE-ADM0-62339095; sourceDataUpdateDate 2023-01-19; buildDate 2023-12-12."
+    }
+  ],
+  "selection": {
+    "ISR": "Retained original Polygon, all rings, without added border lines.",
+    "PSE": {
+      "includedPolygonIndexes": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "excludedPolygonIndexes": [
+        0,
+        1,
+        2
+      ],
+      "rule": "Select whole components with minimum longitude >34.8°. The components are geographically disconnected; this rule does not draw or cut a boundary.",
+      "componentBounds": [
+        {
+          "sourceIndex": 3,
+          "bbox": [
+            35.452236878629094,
+            31.694236244706985,
+            35.45245891314835,
+            31.694542935108416
+          ]
+        },
+        {
+          "sourceIndex": 4,
+          "bbox": [
+            35.45718248078691,
+            31.910820041411853,
+            35.458450473610526,
+            31.911699320267473
+          ]
+        },
+        {
+          "sourceIndex": 5,
+          "bbox": [
+            35.560934874844634,
+            32.152496755121206,
+            35.562114000260976,
+            32.15289629962456
+          ]
+        },
+        {
+          "sourceIndex": 6,
+          "bbox": [
+            35.557255628744315,
+            32.1527363273197,
+            35.55774562256249,
+            32.153042491617725
+          ]
+        },
+        {
+          "sourceIndex": 7,
+          "bbox": [
+            35.56789241780092,
+            32.219391316456154,
+            35.56834157520359,
+            32.2195709794172
+          ]
+        },
+        {
+          "sourceIndex": 8,
+          "bbox": [
+            34.88105529956249,
+            31.341690399592324,
+            35.57349459969606,
+            32.55214790010558
+          ]
+        }
+      ]
+    }
+  },
+  "processing": [
+    "Fetched original unsimplified GeoJSON from the publisher-pinned Git LFS objects.",
+    "Selected complete source polygon components; no boundaries were hand-drawn, buffered, or generalized.",
+    "Removed third coordinate dimensions if any, rounded to seven decimal degrees (approximately centimetre scale), closed rings, and normalized RFC 7946 ring orientation.",
+    "Retained source interior holes, including inland water holes.",
+    "Dissolved the complete selected source polygons with polygon-clipping 0.15.7 (MIT); precomputed the inverse world mask. The library is only used at build time and adds no runtime dependency."
+  ],
+  "attribution": "© OpenStreetMap contributors (ODbL 1.0) and geoBoundaries; PSE component CC BY 4.0. Retain these source-specific licenses when redistributing this collection.",
+  "attributionUrls": [
+    "https://www.openstreetmap.org/copyright",
+    "https://www.geoboundaries.org/",
+    "https://www.geoboundaries.org/index.html#citation"
+  ],
+  "limitations": [
+    "Source boundaries represent different years and are not survey-grade. Small overlaps or gaps can exist at the source seam between components.",
+    "OSM-derived ISR coastline is substantially more detailed than Natural Earth 1:10m and follows real coast geometry; shoreline changes after 2017 may differ.",
+    "The region excludes Gaza and does not expand into any surrounding country or later military-controlled area.",
+    "Source inland-water holes remain excluded. The dissolved main polygon has 52 holes; most are small water features or narrow source-seam differences, so membership is geometric rather than a guarantee for every shoreline point."
+  ],
+  "buildTool": {
+    "name": "polygon-clipping",
+    "version": "0.15.7",
+    "license": "MIT",
+    "url": "https://unpkg.com/polygon-clipping@0.15.7/dist/polygon-clipping.umd.min.js",
+    "sha256": "7f8619e84a86ce8dd400c9b50430e9c8cf8f26027b19eeb479f109f5c1a9d688"
+  },
+  "derivedArtifactLicense": "ODbL-1.0; retain attribution to the CC-BY-4.0 PSE input. Upstream sources retain their respective licenses.",
+  "artifacts": [
+    "play-area.geojson",
+    "outside-play-area.geojson"
+  ],
+  "currentPoiValidation": {
+    "total": 68,
+    "included": 66,
+    "excluded": 2,
+    "excludedRecords": [
+      {
+        "name": "המצפה התת ימי",
+        "coordinates": [
+          34.9180556,
+          29.4991667
+        ],
+        "sourceUrl": "https://www.wikidata.org/wiki/Q6602806",
+        "approximateDistanceOutsideBoundaryMeters": 260
+      },
+      {
+        "name": "נמל תל אביב",
+        "coordinates": [
+          34.7731806,
+          32.0977667
+        ],
+        "sourceUrl": "https://www.wikidata.org/wiki/Q2889387",
+        "approximateDistanceOutsideBoundaryMeters": 27
+      }
+    ],
+    "recommendation": "Exclude current offshore coordinates from eligible rounds; do not enlarge the land mask to accommodate the records. Re-review authoritative entrance coordinates if these places are wanted later.",
+    "originalSeedCount": 68,
+    "publishedPoolCount": 66
+  }
+}
